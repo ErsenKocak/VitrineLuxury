@@ -1,6 +1,92 @@
 {
+  "READMORE": "Daha Fazlası",
+  "USEFULLINKS": "Kısayollar",
+  "PREV": "Geri",
+  "NEXT": "İleri",
   "HOME": {
     "HELLO": "MERHABA FOR TURKISH",
-    "TITLE" : "TR BAŞLIK"
+    "TITLE" : "TR BAŞLIK",
+    "PHONE": "Telefon",
+    "WHATWEDO": "Ne yapıyoruz ?",
+    "OURCLIENTS":"Müşterilerimiz",
+    "NAVIGATION": {
+      "HOME" :"Ana Sayfa",
+      "PROJECTS" :"Projelerimiz",
+      "SERVICES" :"Hizmetlerimiz",
+      "ABOUT" :"Hakkımızda",
+      "CONTACT" :"Bize Ulaşın"
+    },
+    "SLIDER":{
+      "01":{
+        "TITLE":"MODA'YA UYGUN",
+        "SUBTITLE" : "LÜKS MUTFAK",
+        "DESCRIPTION": "İç tasarım işinde, doğru tasarım ve doğru fikirler çok önemlidir."
+      },
+      "02": {
+        "TITLE": "ZARİF",
+        "SUBTITLE": "TUĞLA EV",
+        "DESCRIPTION": "İç tasarım, zihninizi geliştiren sanat ve bilimdir."
+      },
+      "03":{
+        "TITLE": "YARATICI",
+        "SUBTITLE": "DÜŞÜNCELER",
+        "DESCRIPTION": "Güzel yaratılışta herhangi bir arazi yaratan çok görevli bir meslek."
+      }
+    },
+    "ABOUTAREA": {
+      "TITLE": "Hakkımızda",
+      "CARDTITLE": "Mimari çözümlerde rekabetçiyiz",
+      "CARDDESCRIPTION":"Peyzaj tasarımı, pratik ve hoş bir dış mekan yaşam alanı geliştirme sürecidir. Tüm sanat formları, resim ve çiçek tasarımı boyunca sanatçılar tarafından yüzyıllardır kullanılan altı tasarım ilkesi vardır..."
+    },
+    "WHATWEDOAREA":{
+      "TITLE":"Ne yapıyoruz ?",
+      "01": {
+        "DESCRIPTION": "İç Dizayn"
+      },
+      "02": {
+        "DESCRIPTION": "Mimari"
+      },
+      "03": {
+        "DESCRIPTION": "Kat Planı"
+      },
+      "WHATWEDOFOOTER":{
+        "TITLE": "Etkileyici detaylarla fikir sunuyoruz.",
+        "DESCRIPTION" : "Işığın, dokuların ve alanın benzersiz kullanımlarıyla birleşen canlı renkler ve soyut desenler, büyüten bir dış mekan alanı yaratır."
+      }
+    },
+    "INFOGRAPHIC":{
+      "TITLE": "Bilgi Grafiği",
+      "YEARS": "Yılın Tecrübesi",
+      "PROJECT" : "Proje Alındı",
+      "WON": "Kazanılan Ödüller",
+      "FOLLOWERS" : "Takipçi"
+    },
+    "SERVICES": {
+      "TITLE":"Hizmetlerimiz",
+      "01":{
+        "TITLE": "Plan ve Projeler",
+        "DESCRIPTION": "Tasarıma yardımcı olmak için müşterilerimize bir dizi mimari 3D modelleme hizmeti sunuyoruz."
+      },
+      "02":{
+        "TITLE": "İç Mekan",
+        "DESCRIPTION": "Hem müşterinin hem de mimarların bir sonraki proje üzerinde çalışmasına yardımcı olan analiz ve planlama hizmetleri."
+      },
+      "03":{
+        "TITLE": "Dış Mekan",
+        "DESCRIPTION": "İç tasarım, Master planlama, 3D modelleme dahil olmak üzere kapsamlı Mimari Mühendislik Hizmetleri sunuyoruz."
+      },
+      "04":{
+        "TITLE": "Mimari",
+        "DESCRIPTION": "Proje yönetimi, ekibimizin projenizi planladığı ve yürüttüğü süreçtir."
+      },
+      "05":{
+        "TITLE": "Mobilya",
+        "DESCRIPTION": "Ekibimiz ayrıca, çalışma hakkında özel bilgilere ihtiyacınız olsa bile, tüm mimari konularda istişarelerde bulunur"
+      },
+      "06":{
+        "TITLE": "Dekorasyon",
+        "DESCRIPTION": "İç ve Dış Tasarım hizmetlerini birleştiriyoruz ve genellikle tek bir çözüm olarak sunuyoruz."
+      }
+    }
   }
 }

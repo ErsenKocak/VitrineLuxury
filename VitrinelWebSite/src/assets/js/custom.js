@@ -3,38 +3,38 @@ All JavaScript fuctions Start
 ======================================*/
 
 (function ($) {
-	
+
     'use strict';
 /*--------------------------------------------------------------------------------------------
 	document.ready ALL FUNCTION START
----------------------------------------------------------------------------------------------*/	
+---------------------------------------------------------------------------------------------*/
 
 
-//________Top Search bar Show Hide function by = custom.js________//	
-	
+//________Top Search bar Show Hide function by = custom.js________//
+
 	 function site_search(){
-			jQuery('a[href="#search"]').on('click', function(event) {                    
+			jQuery('a[href="#search"]').on('click', function(event) {
 			jQuery('#search').addClass('open');
 			jQuery('#search > form > input[type="search"]').focus();
 		});
-					
+
 		jQuery('#search, #search button.close').on('click keyup', function(event) {
 			if (event.target === this || event.target.className === 'close') {
 				jQuery(this).removeClass('open');
 			}
-		});  
-	 }	
-	 
-	 
-//________Video responsive function by = custom.js________//	
+		});
+	 }
 
-	function video_responsive(){	
+
+//________Video responsive function by = custom.js________//
+
+	function video_responsive(){
 		jQuery('iframe[src*="youtube.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
-		jQuery('iframe[src*="vimeo.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');	
-	}  
+		jQuery('iframe[src*="vimeo.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
+	}
 
 
-//________magnificPopup function	by = magnific-popup.js________//	
+//________magnificPopup function	by = magnific-popup.js________//
 
 	function magnific_popup(){
         jQuery('.mfp-gallery').magnificPopup({
@@ -52,26 +52,26 @@ All JavaScript fuctions Start
           }
        });
 	}
-	
 
-//________ magnificPopup for video function	by = magnific-popup.js________//	
-	
-	function magnific_video(){	
+
+//________ magnificPopup for video function	by = magnific-popup.js________//
+
+	function magnific_video(){
 		jQuery('.mfp-video').magnificPopup({
 			type: 'iframe',
 		});
 	}
-	
 
-//________Vertically center Bootstrap modal popup function by = custom.js________//	
 
-	function popup_vertical_center(){	
+//________Vertically center Bootstrap modal popup function by = custom.js________//
+
+	function popup_vertical_center(){
 		jQuery(function() {
 			function reposition() {
 				var modal = jQuery(this),
 				dialog = modal.find('.modal-dialog');
 				modal.css('display', 'block');
-				// Dividing by two centers the modal exactly, but dividing by three 
+				// Dividing by two centers the modal exactly, but dividing by three
 				// or four works better for larger screens.
 				dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
 			}
@@ -83,11 +83,11 @@ All JavaScript fuctions Start
 			});
 		});
 	}
-	
 
 
 
-//________page scroll top on button click function by = custom.js________//	
+
+//________page scroll top on button click function by = custom.js________//
 
 	function scroll_top(){
 		jQuery("button.scroltop").on('click', function() {
@@ -106,17 +106,17 @@ All JavaScript fuctions Start
 			}
 		});
 	}
-	
 
-//________graph images moving function by = jquery.bgscroll.js	________//	
+
+//________graph images moving function by = jquery.bgscroll.js	________//
 	function bg_moving(){
-		jQuery( function() {			  
+		jQuery( function() {
 		jQuery('.bg-moving').bgscroll({scrollSpeed:20 , direction:'h' });
 		});
 	}
 
-//________input type file function by = custom.js________//	
-	 
+//________input type file function by = custom.js________//
+
 	function input_type_file_form(){
 		jQuery(document).on('change', '.btn-file :file', function() {
 			var input = jQuery(this)
@@ -133,11 +133,11 @@ All JavaScript fuctions Start
 			} else {
 				if (log) alert(log);
 			}
-		});	
+		});
 	}
-	
 
-//________ input Placeholder in IE9 function by = custom.js________//	
+
+//________ input Placeholder in IE9 function by = custom.js________//
 
 	function placeholderSupport(){
 	/* input placeholder for ie9 & ie8 & ie7 */
@@ -160,11 +160,11 @@ All JavaScript fuctions Start
 			});
 		}
 		/*fix for IE7 and IE8 end */
-	}	
-	
+	}
 
 
-//________ footer fixed on bottom function by = custom.js________//	
+
+//________ footer fixed on bottom function by = custom.js________//
 
 	function footer_fixed() {
 	  jQuery('.site-footer').css('display', 'block');
@@ -174,8 +174,8 @@ All JavaScript fuctions Start
 	  jQuery('.site-footer').css('height', footerHeight);
 	}
 
-	
-//________STICKY MENU WHEN SCROLL DOWN________//	
+
+//________STICKY MENU WHEN SCROLL DOWN________//
 
 function sticky_header(){
 	if(jQuery('.sticky-header').length){
@@ -183,8 +183,8 @@ function sticky_header(){
 		  element: jQuery('.sticky-header')
 		})
 	}
-}		
-//________accordion active calss function by = custom.js________//	
+}
+//________accordion active calss function by = custom.js________//
 
 	function accordion_active() {
 		$('.acod-head a').on('click', function() {
@@ -194,10 +194,10 @@ function sticky_header(){
 			$(this).parent().addClass('acc-actives'); //just to make a visual sense
 			($(this).parents('.acod-head').attr('class'));
 		 });
-	}	
-	
+	}
 
-//________Nav submenu show hide on mobile by = custom.js________//	
+
+//________Nav submenu show hide on mobile by = custom.js________//
 	 function mobile_nav(){
 		jQuery(".sub-menu").parent('li').addClass('has-child');
 		jQuery(".mega-menu").parent('li').addClass('has-child');
@@ -208,11 +208,11 @@ function sticky_header(){
 			});
 			ev.stopPropagation();
 		});
-		
-	 }
-	 
 
-//________Home page testimonial function by = owl.carousel.js________//	
+	 }
+
+
+//________Home page testimonial function by = owl.carousel.js________//
 
 	function testimonial_home(){
 	jQuery('.testimonial-home').owlCarousel({
@@ -233,8 +233,8 @@ function sticky_header(){
 		}
 	});
 	}
-	
-//________Home page testimonial function by = owl.carousel.js________//	
+
+//________Home page testimonial function by = owl.carousel.js________//
 
 	function testimonial_home_two(){
 	jQuery('.testimonial-home-two').owlCarousel({
@@ -253,9 +253,9 @@ function sticky_header(){
 			}
 		}
 	});
-	}		
-	
-//________Home page testimonial function by = owl.carousel.js________//	
+	}
+
+//________Home page testimonial function by = owl.carousel.js________//
 
 	function about_home(){
 	jQuery('.about-home').owlCarousel({
@@ -274,8 +274,8 @@ function sticky_header(){
 			}
 		}
 	});
-	}		
-//________home_client_carouse function by = owl.carousel.js ________//	
+	}
+//________home_client_carouse function by = owl.carousel.js ________//
 
 	function home_client_carousel(){
 	jQuery('.home-client-carousel').owlCarousel({
@@ -290,7 +290,7 @@ function sticky_header(){
 			},
 			480:{
 				items:3
-			},			
+			},
 			767:{
 				items:4
 			},
@@ -299,10 +299,10 @@ function sticky_header(){
 			}
 		}
 	});
-	}	
+	}
 
 
-//________home_client_carouse function by = owl.carousel.js________//	
+//________home_client_carouse function by = owl.carousel.js________//
 
 	function home_client_carousel_2(){
 	jQuery('.home-client-carousel-2').owlCarousel({
@@ -318,7 +318,7 @@ function sticky_header(){
 			},
 			480:{
 				items:3
-			},			
+			},
 			767:{
 				items:4
 			},
@@ -327,10 +327,10 @@ function sticky_header(){
 			}
 		}
 	});
-	}	
-	
-		
-//________ Project carousel  function by = owl.carousel.js________//	
+	}
+
+
+//________ Project carousel  function by = owl.carousel.js________//
 
 	function project_carousel4(){
 	jQuery('.project-carousel4').owlCarousel({
@@ -350,21 +350,21 @@ function sticky_header(){
 			640:{
 				items:2,
 				margin:15
-			},			
+			},
 			800:{
 				items:3,
 				margin:20,
 			},
 			1200:{
 				items:4
-			}			
-			
+			}
+
 		}
 	});
 	}
-	
-	
-//________ Project carousel  function by = owl.carousel.js________//	
+
+
+//________ Project carousel  function by = owl.carousel.js________//
 
 	function project_carousel3(){
 	jQuery('.project-carousel3').owlCarousel({
@@ -384,25 +384,25 @@ function sticky_header(){
 			640:{
 				items:2,
 				margin:15
-			},			
+			},
 			768:{
 				items:2,
 				margin:15
-			},			
+			},
 			991:{
 				items:3,
 				margin:15
 			},
 			1200:{
 				items:3
-			}			
-			
+			}
+
 		}
 	});
-	}	
-	
-	
-//________ Project carousel  function by = owl.carousel.js________//	
+	}
+
+
+//________ Project carousel  function by = owl.carousel.js________//
 
 	function project_carousel1(){
 	jQuery('.project-carousel1').owlCarousel({
@@ -420,25 +420,25 @@ function sticky_header(){
 			},
 			768:{
 				items:1
-			},			
+			},
 			991:{
 				items:1
 			}
-		
-			
+
+
 		}
 	});
-	}	
-	
-//________ Projects carousel  function by = owl.carousel.js________//	
+	}
+
+//________ Projects carousel  function by = owl.carousel.js________//
 
 function home_projects_filter(){
-		
+
 		var owl = jQuery('.owl-carousel-filter').owlCarousel({
 		loop:false,
-		autoplay:false,
+		autoplay:true,
 		margin:30,
-		nav:true,
+		nav:false,
 		dots: false,
 		navText: ['Prev', 'Next'],
 		responsive:{
@@ -450,19 +450,19 @@ function home_projects_filter(){
 			},
 			768:{
 				items:3,
-			},			
+			},
 			991:{
 				items:3
 			},
 			1136:{
 				items:4
-			},					
+			},
 			1366:{
 				items:5
-			}	
+			}
 		    }
 		})
-		
+
 		/* Filter Nav */
 
 		jQuery('.btn-filter-wrap').on('click', '.btn-filter', function(e) {
@@ -475,15 +475,15 @@ function home_projects_filter(){
 			jQuery(this).addClass('btn-active').siblings().removeClass('btn-active');
 
 			/* Filter */
-			owl.owlFilter(filter_data, function(_owl) { 
-				jQuery(_owl).find('.item').each(owlAnimateFilter); 
+			owl.owlFilter(filter_data, function(_owl) {
+				jQuery(_owl).find('.item').each(owlAnimateFilter);
 			});
 		})
-	
-	
-	
-	}	
-//________ Services  function by = owl.carousel.js________//	
+
+
+
+	}
+//________ Services  function by = owl.carousel.js________//
 
 	function services_slider(){
 	jQuery('.service-slider').owlCarousel({
@@ -500,19 +500,19 @@ function home_projects_filter(){
 			},
 			768:{
 				items:2
-			},			
+			},
 			991:{
 				items:3
 			},
 			1200:{
 				items:4
-			}	
-			
+			}
+
 		}
 	});
 	}
-	
-//________ Services  function by = owl.carousel.js________//	
+
+//________ Services  function by = owl.carousel.js________//
 
 	function services_slider_two(){
 	jQuery('.service-slider-two').owlCarousel({
@@ -529,30 +529,30 @@ function home_projects_filter(){
 			},
 			640:{
 				items:2
-			},			
+			},
 			768:{
 				items:2
-			},			
+			},
 			991:{
 				items:3
 			},
 			1200:{
 				items:5
-			}	
-			
+			}
+
 		}
 	});
-	}			
+	}
 
-	
+
 	function contact_slide(){
-	jQuery('.contact-slide-show').on('click', function () {	
+	jQuery('.contact-slide-show').on('click', function () {
 		jQuery('.contact-slide-hide').animate({'right': '0px'});
 	});
-	jQuery('.contact_close').on('click', function () {	
+	jQuery('.contact_close').on('click', function () {
 		jQuery('.contact-slide-hide').animate({'right': '100%'});
-	});		
-	};		
+	});
+	};
 
 
 // ________ Fade slider function by = owl.carousel.js ========================== //
@@ -570,27 +570,27 @@ function home_projects_filter(){
 
 	})
 	}
-	//________  Sidebar sticky  when scroll down function by = theia-sticky-sidebar.js ========== //		
-	function sticky_sidebar(){		
+	//________  Sidebar sticky  when scroll down function by = theia-sticky-sidebar.js ========== //
+	function sticky_sidebar(){
 		$('.sticky_column')
 			.theiaStickySidebar({
 				additionalMarginTop: 100
-			});		
+			});
 	}
-	
-	//________ Counter Up  function by = counterup.min.js ========== //		
-	function counter_up(){		
+
+	//________ Counter Up  function by = counterup.min.js ========== //
+	function counter_up(){
 		jQuery('.counter').counterUp({
 			delay: 10,
 			time: 5000
 		});
-	
+
 	}
 
-//________ Login Signup Form function by = custom.js ________//		
-	function Get_in_touch(){		
+//________ Login Signup Form function by = custom.js ________//
+	function Get_in_touch(){
 	   $(".input input , .input textarea").focus(function() {
-	
+
 		  $(this).parent(".input").each(function() {
 			 $("label", this).css({
 				"line-height": "18px",
@@ -615,25 +615,25 @@ function home_projects_filter(){
 				   "top": "10px"
 				})
 			 });
-	
+
 		  }
 	   });
 	}
-	
 
 
 
-			
+
+
 /*--------------------------------------------------------------------------------------------
 	Window on load ALL FUNCTION START
 ---------------------------------------------------------------------------------------------*/
 
-//________equal each box function by  = custom.js________//	
+//________equal each box function by  = custom.js________//
 
 	function equalheight(container) {
-		var currentTallest = 0, 
-			currentRowStart = 0, 
-			rowDivs = new Array(), 
+		var currentTallest = 0,
+			currentRowStart = 0,
+			rowDivs = new Array(),
 			$el, topPosition = 0,
 			currentDiv = 0;
 
@@ -662,12 +662,12 @@ function home_projects_filter(){
 	}
 
 
-	
 
-//________masonry function function by = isotope.pkgd.min.js________//	
+
+//________masonry function function by = isotope.pkgd.min.js________//
 
 	function masonryBox() {
-        if ( jQuery().isotope ) {      
+        if ( jQuery().isotope ) {
             var $container = jQuery('.masonry-outer');
                 $container.isotope({
                     itemSelector: '.masonry-item',
@@ -676,7 +676,7 @@ function home_projects_filter(){
 					stamp: '.stamp',
                 });
 
-            jQuery('.masonry-filter li').on('click',function() {                           
+            jQuery('.masonry-filter li').on('click',function() {
                 var selector = jQuery(this).find("a").attr('data-filter');
                 jQuery('.masonry-filter li').removeClass('active');
                 jQuery(this).addClass('active');
@@ -685,47 +685,47 @@ function home_projects_filter(){
             });
     	};
 	}
-		
 
-//________background image parallax function by = stellar.js ________//		
+
+//________background image parallax function by = stellar.js ________//
 	function bg_image_stellar(){
 		jQuery(function(){
 				jQuery.stellar({
 					horizontalScrolling: false,
 					verticalOffset:100
 				});
-			});			
+			});
 	}
-		
 
-//________page loader function by = custom.js________//	
+
+//________page loader function by = custom.js________//
 
 	function page_loader() {
 		$('.loading-area').fadeOut(1000)
 	};
 
-	
-//________skills bar function function by  = custom.js ________//	
+
+//________skills bar function function by  = custom.js ________//
 
 
 	/* 2.1 skills bar tooltips*/
 	function progress_bar_tooltips() {
-		jQuery(function () { 
+		jQuery(function () {
 		  jQuery('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-		});  
+		});
 	}
 
 	/* 2.2 skills bar widths*/
 
-	function progress_bar_width() {	
-		jQuery(window).on('scroll', function(){   
+	function progress_bar_width() {
+		jQuery(window).on('scroll', function(){
 		  jQuery(".progress-bar").each(function(){
 			progress_bar_width = jQuery(this).attr('aria-valuenow');
 			jQuery(this).width(progress_bar_width + '%');
 		  });
-		}); 
+		});
 	}
-	
+
 
 /*--------------------------------------------------------------------------------------------
     Window on scroll ALL FUNCTION START
@@ -738,88 +738,88 @@ function home_projects_filter(){
         } else {
             $(".is-fixed").removeClass("color-fill");
         }
-    };	
+    };
 
 /*--------------------------------------------------------------------------------------------
 	document.ready ALL FUNCTION START
 ---------------------------------------------------------------------------------------------*/
 	jQuery(document).ready(function() {
-			//________Top Search bar Show Hide function by = custom.js ________//	 		
+			//________Top Search bar Show Hide function by = custom.js ________//
 			site_search(),
 			contact_slide(),
-	       //________  Sidebar sticky  when scroll down function by = theia-sticky-sidebar.js ========== //		
+	       //________  Sidebar sticky  when scroll down function by = theia-sticky-sidebar.js ========== //
 	        sticky_sidebar(),
-			//________ Counter Up  function by = counterup.min.js ========== //		
-	        counter_up(),					
-			//________graph images moving function by = jquery.bgscroll.js	________//	
-             bg_moving()		
-			//________Video responsive function by = custom.js ________//	
+			//________ Counter Up  function by = counterup.min.js ========== //
+	        counter_up(),
+			//________graph images moving function by = jquery.bgscroll.js	________//
+             bg_moving()
+			//________Video responsive function by = custom.js ________//
 			video_responsive(),
-			//________magnificPopup function	by = magnific-popup.js________//	
+			//________magnificPopup function	by = magnific-popup.js________//
 			magnific_popup(),
-			//________magnificPopup for video function	by = magnific-popup.js________//	
+			//________magnificPopup for video function	by = magnific-popup.js________//
 			magnific_video(),
-			//________Vertically center Bootstrap modal popup function by = custom.js________//	
+			//________Vertically center Bootstrap modal popup function by = custom.js________//
 			popup_vertical_center();
-			//________Main menu sticky on top  when scroll down function by = custom.js	________//		
+			//________Main menu sticky on top  when scroll down function by = custom.js	________//
 			sticky_header(),
-			//________page scroll top on button click function by = custom.js________//		
+			//________page scroll top on button click function by = custom.js________//
 			scroll_top(),
-			//________input type file function by = custom.js	 ________//		
+			//________input type file function by = custom.js	 ________//
 			input_type_file_form(),
-			//________ input Placeholder in IE9 function by = custom.js	________//		
+			//________ input Placeholder in IE9 function by = custom.js	________//
 			placeholderSupport(),
-			//________footer fixed on bottom function by = custom.js________//		
+			//________footer fixed on bottom function by = custom.js________//
 			footer_fixed(),
-			//________accordion active calss function by = custom.js ________//	
+			//________accordion active calss function by = custom.js ________//
 			accordion_active(),
-			//________ Nav submenu on off function by = custome.js________//	
+			//________ Nav submenu on off function by = custome.js________//
 			mobile_nav(),
-			//________Home page testimonial function by = owl.carousel.js________//	
+			//________Home page testimonial function by = owl.carousel.js________//
 			testimonial_home(),
-			//________Home page testimonial function by = owl.carousel.js________//	
+			//________Home page testimonial function by = owl.carousel.js________//
 			testimonial_home_two(),
-            //________Home page testimonial function by = owl.carousel.js________//	
-	        about_home()						
-			//________Client logo Carousel function by = owl.carousel.js________//	
+            //________Home page testimonial function by = owl.carousel.js________//
+	        about_home()
+			//________Client logo Carousel function by = owl.carousel.js________//
 			home_client_carousel(),
-			//________Client logo Carousel function by = owl.carousel.js________//	
+			//________Client logo Carousel function by = owl.carousel.js________//
 			home_client_carousel_2(),
-			//________ Login Signup Form function by = custom.js ________//		
+			//________ Login Signup Form function by = custom.js ________//
 			Get_in_touch()
-		
-				
-	}); 
+
+
+	});
 
 /*--------------------------------------------------------------------------------------------
 	Window Load START
 ---------------------------------------------------------------------------------------------*/
 	jQuery(window).on('load', function () {
-		//________equal each box function by  = custom.js________//				
+		//________equal each box function by  = custom.js________//
 		equalheight(".equal-wraper .equal-col"),
-		//________masonry function function by = isotope.pkgd.min.js________//			
+		//________masonry function function by = isotope.pkgd.min.js________//
 		masonryBox(),
-		//________background image parallax function by = stellar.js	________//	
+		//________background image parallax function by = stellar.js	________//
 		bg_image_stellar(),
-		//________page loader function by = custom.js________//			
+		//________page loader function by = custom.js________//
 		page_loader(),
-		//________project carousel  function by = owl.carousel.js________//	
+		//________project carousel  function by = owl.carousel.js________//
 		project_carousel4()
-		//________project carousel  function by = owl.carousel.js________//	
+		//________project carousel  function by = owl.carousel.js________//
 		project_carousel3()
-		//________project carousel  function by = owl.carousel.js________//	
-		project_carousel1()				
-		//________Projects carousel  function by = owl.carousel.js________//	
-		home_projects_filter()		
-        //________ Services Slider  function by = owl.carousel.js________//	
+		//________project carousel  function by = owl.carousel.js________//
+		project_carousel1()
+		//________Projects carousel  function by = owl.carousel.js________//
+		home_projects_filter()
+        //________ Services Slider  function by = owl.carousel.js________//
 	    services_slider()
-		//________ Services  function by = owl.carousel.js________//	
+		//________ Services  function by = owl.carousel.js________//
 	    services_slider_two()
         // ________ Fade slider function by = owl.carousel.js ========================== //
-	    owl_fade_slider()				
-		//________skills bar function function by  = custom.js________//				
+	    owl_fade_slider()
+		//________skills bar function function by  = custom.js________//
 		progress_bar_tooltips(),
-		//________skills bar function function by  = custom.js________//			
+		//________skills bar function function by  = custom.js________//
 		progress_bar_width()
 });
 
@@ -828,26 +828,26 @@ function home_projects_filter(){
 ===========================*/
 
 	jQuery(window).on('scroll', function () {
-//________Window on scroll header color fill________//	 
+//________Window on scroll header color fill________//
 		color_fill_header()
-		
+
 	});
-	
+
 /*===========================
 	Window Resize ALL FUNCTION START
 ===========================*/
 
 	jQuery(window).on('resize', function () {
-//________ footer fixed on bottom function by = custom.js	________//		 
+//________ footer fixed on bottom function by = custom.js	________//
 	 	footer_fixed(),
-	    equalheight(".equal-wraper .equal-col")	
+	    equalheight(".equal-wraper .equal-col")
 	});
 
 /*===========================
 	Document on  Submit FUNCTION START
 ===========================*/
 
-//________ Contact form function by = custom.js________//		
+//________ Contact form function by = custom.js________//
 	jQuery(document).on('submit', 'form.cons-contact-form', function(e){
 		e.preventDefault();
 		var form = jQuery(this);
@@ -866,24 +866,24 @@ function home_projects_filter(){
 				if(data['success']){
 				jQuery("<div class='alert alert-success'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');
 				}else{
-				jQuery("<div class='alert alert-danger'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');	
+				jQuery("<div class='alert alert-danger'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');
 				}
 			}
 		});
 		jQuery('.cons-contact-form').trigger("reset");
 		return false;
 	});
-	
-	
-	
-	
-//________ Contact form home page function by = custom.js________//	
+
+
+
+
+//________ Contact form home page function by = custom.js________//
 
 	jQuery(document).on('submit', 'form.cons-contact-form2', function(e){
 		e.preventDefault();
 		var form = jQuery(this);
 		/* sending message */
-		
+
 		jQuery.ajax({
 			url: 'http://7xtheme.com/inteshape/form-handler2.php',
 			data: form.serialize() + "&action=contactform",
@@ -891,7 +891,7 @@ function home_projects_filter(){
 			dataType: 'JSON',
 			beforeSend: function() {
 				jQuery('.loading-area').show();
-				
+
 			},
 
 			success:function(data){
@@ -905,15 +905,15 @@ function home_projects_filter(){
 		});
 		jQuery('.cons-contact-form2').trigger("reset");
 		return false;
-	});		
-		
+	});
+
 
 /*===========================
 	Document on  Submit FUNCTION END
-===========================*/	
+===========================*/
 
-	
-//________Switcher panal slide function END	________//	
+
+//________Switcher panal slide function END	________//
 
 
 

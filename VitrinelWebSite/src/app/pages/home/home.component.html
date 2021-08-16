@@ -1,1 +1,1677 @@
-<p>home works!</p>
+
+	<div class="page-wraper">
+
+        <!-- HEADER START -->
+        <header class="site-header header-style-1 nav-wide">
+            <div class="top-bar bg-gray">
+                <div class="container">
+                    <div class="d-flex justify-content-end">
+                        <ul class="list-unstyled e-p-bx">
+                            <li><span>Mail :</span> test@gmail.com</li>
+                            <li><span>{{'HOME.PHONE' | translate }} :</span>(+90) 532 176 82 82  |  (+974) 50071791</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div  class="sticky-header main-bar-wraper navbar-expand-lg">
+                <div class="main-bar header-left-gray-block bg-white">
+                    <div class="container clearfix">
+                        <div class="logo-header">
+                            <div class="logo-header-inner logo-header-one">
+                                <a href="index.html">
+                                    <img src="../../../assets/images/logo-1.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- NAV Toggle Button -->
+                        <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                            <!-- EXTRA NAV -->
+                            <div class="extra-nav">
+                                <div class="extra-cell">
+                                    <a style="cursor: pointer;" (click)="changelanguage('tr')">
+                                      <svg-icon src="../../../assets/images/svg/turkey.svg" [svgStyle]="{ 'width.px':30,'padding-right.px':5 }"></svg-icon>
+
+                                    	<!-- <i class="flaticon-turkey"></i> -->
+                                    </a>
+                                     <a  style="cursor: pointer;" (click)="changelanguage('en')">
+                                      <svg-icon src="../../../assets/images/svg/united.svg" [svgStyle]="{ 'width.px':30 ,'padding-right.px':5}"></svg-icon>
+
+                                     </a>
+                                  </div>
+                                <!-- <div class="extra-cell">
+                                    <div class="contact-slide-show"><a href="javascript:;" class="get-in-touch-btn from-top">Get in touch</a></div>
+                                </div> -->
+                            </div>
+                            <!-- EXTRA Nav -->
+
+                        	<!-- MAIN NAVIGATION -->
+                            <div class="header-nav nav-dark navbar-collapse collapse justify-content-start collapse">
+                                <ul class=" nav navbar-nav">
+                                    <li class="active">
+                                        <a href="/">{{ 'HOME.NAVIGATION.HOME' | translate}}</a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;">{{ 'HOME.NAVIGATION.ABOUT' | translate}}</a>
+
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href="javascript:;">{{ 'HOME.NAVIGATION.PROJECTS' | translate}}</a>
+
+                                    </li>
+
+
+
+                                    <!-- <li><a href="faq.html">FAQ</a></li> -->
+                                    <li><a href="contact-1.html">{{ 'HOME.NAVIGATION.CONTACT' | translate}}</a></li>
+
+                                </ul>
+                            </div>
+
+                            <!-- CONTACT -->
+                         	<div class="contact-slide-hide" style="background-image:url(images/background/bg-map.png)">
+                                <div class="contact-nav">
+                                     <a href="javascript:void(0)" class="contact_close">&times;</a>
+                                     <div class="contact-nav-form">
+                                     	<div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12">
+
+                                                <div class=" contact-nav-info">
+
+                                                    <div class="sx-icon-box-wraper left p-b30">
+                                                        <div class="icon-xs inline-icon m-b20 scale-in-center"><i class="fa fa-phone"></i></div>
+                                                        <div class="icon-content">
+                                                            <h6 class="m-t0">Phone number</h6>
+                                                            <p>(075) 123-7654</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="sx-icon-box-wraper left p-b30">
+                                                        <div class="icon-xs inline-icon m-b20 scale-in-center"><i class="fa fa-envelope"></i></div>
+                                                        <div class="icon-content">
+                                                            <h6 class="m-t0">Email address</h6>
+                                                            <p>7xthemehelp@gmail.com</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="sx-icon-box-wraper left p-b30">
+                                                        <div class="icon-xs inline-icon m-b20 scale-in-center"><i class="fa fa-map-marker"></i></div>
+                                                        <div class="icon-content">
+                                                            <h6 class="m-t0">Address info</h6>
+                                                            <p>201 Liverpool Street, Suite 721, London</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="full-social-bg">
+                                                          <ul>
+                                                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+                                                                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                                <li><a href="#" class="tumblr"><i class="fa fa-tumblr"></i></a></li>
+                                                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                                                          </ul>
+                                                    </div>
+
+                                                 </div>
+
+                                            </div>
+
+
+                                            <div class="col-xl-6 col-lg-6 col-md-12 ">
+                                            	<div class="contact-nav-field shadow-lg p-a30 bg-white" style="background-image:url(images/background/bg-map.png)">
+                                                <form class="cons-contact-form2 form-transparent" method="post" action="form-handler2.php">
+
+                                                    <div class="input input-animate">
+                                                        <label for="name">Name</label>
+                                                        <input type="text" name="username" id="name" required>
+                                                        <span class="spin"></span>
+                                                    </div>
+
+                                                    <div class="input input-animate">
+                                                        <label for="email">Email</label>
+                                                        <input type="email" name="email" id="email" required>
+                                                        <span class="spin"></span>
+                                                    </div>
+
+                                                    <div class="input input-animate">
+                                                        <label for="Phone">Phone</label>
+                                                        <input type="text" name="phone" id="Phone" required>
+                                                        <span class="spin"></span>
+                                                    </div>
+
+                                                    <div class="input input-animate">
+                                                        <label for="message">Textarea</label>
+                                                        <textarea name="message" id="message" required></textarea>
+                                                        <span class="spin"></span>
+                                                    </div>
+
+                                                    <div class="text-left p-t10">
+                                                        <button type="submit" class="site-button-secondry btn-half ">
+                                                         <span>  Submit Now</span>
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                                </div>
+                                            </div>
+                                         </div>
+                                     </div>
+
+
+                                </div>
+                            </div>
+
+                            <!-- SITE SEARCH -->
+                            <div id="search">
+                                <span class="close"></span>
+                                <form role="search" id="searchform" action="/search" method="get" class="radius-xl">
+                                    <div class="input-group">
+                                        <input value="" name="q" type="search" placeholder="Type to search"/>
+                                        <span class="input-group-btn"><button type="button" class="search-btn"><i class="fa fa-search arrow-animation"></i></button></span>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END -->
+
+        <!-- CONTENT START -->
+        <div class="page-content">
+
+
+
+            <!-- SLIDER START -->
+            <div id="rev_slider_26_1_wrapper " class="rev_slider_wrapper fullscreen-container home-rev-slider" data-alias="mask-showcase" data-source="gallery">
+                <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+                <div id="rev_slider_26_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
+                    <ul>
+                        <!-- SLIDE 1 -->
+                        <li data-index="rs-73" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="../../../assets/images/main-slider/slider1/slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../../../assets/images/main-slider/slider1/slide1.jpg" data-bgcolor='#f8f8f8' style='' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+
+            				<!-- LAYER 1  right image overlay dark-->
+                        	<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
+                            id="slide-73-layer-1"
+                            data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-fontweight="['100','100','400','400']"
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-whitespace="nowrap"
+
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="off"
+                            data-responsive="off"
+                            data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":150,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power2.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+
+                            style="z-index: 6;text-transform:left;background-color:rgba(0,0,0,0.5);">
+                            </div>
+
+                            <!-- LAYERS 2 number block-->
+							<div class="tp-caption rev-btn  tp-resizeme slider-block sx-bg-primary"
+                                id="slide-73-layer-2"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-220','-220','-220','50']"
+                                data-fontweight="['600','600','600','600']"
+                                data-fontsize="['120','120','80','80']"
+                                data-lineheight="['120','120','80','80']"
+
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[10,10,10,10]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[10,10,10,10]"
+
+                                style="z-index: 10; font-family: 'Poppins', sans-serif;">01</div>
+
+
+                            <!-- LAYER 3  Thin text title-->
+                            <div class="tp-caption   tp-resizeme slider-tag-line"
+                                id="slide-73-layer-3"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-80','-80','-80','170']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','650','620','380']"
+                                data-height="none"
+                                data-whitespace="nowrap"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":300,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[10,10,10,10]"
+                                data-paddingright="[20,20,20,0]"
+                                data-paddingbottom="[10,10,10,10]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index: 10; font-weight:200; letter-spacing:10px; color: #fff;font-family: 'Poppins', sans-serif; text-transform:uppercase">{{ 'HOME.SLIDER.01.TITLE' | translate}}</div>
+
+                            <!-- LAYER 4  Bold Title-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-73-layer-4"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['10','10','10','230']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','700','700','700']"
+                                data-height="none"
+                                data-whitespace="normal"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,10]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,10]"
+
+                                style="z-index: 10; text-transform:uppercase; letter-spacing:10px; white-space: normal;font-weight: 600; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.01.SUBTITLE' | translate}}</div>
+
+                            <!-- LAYER 5  Paragraph-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-73-layer-5"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['90','90','90','300']"
+                                data-fontsize="['20','20','20','20']"
+                                data-lineheight="['30','30','30','30']"
+                                data-width="['600','600','600','380']"
+                                data-height="none"
+                                data-whitespace="normal"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,20]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                    style="z-index: 10; white-space: normal; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.01.DESCRIPTION' | translate}}</div>
+
+                            <!-- LAYER 6  Read More-->
+                            <div class="tp-caption rev-btn  tp-resizeme"
+                                id="slide-73-layer-6"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['180','180','180','420']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:9; line-height:30px;"><a href="Javascript:;" class="site-button-secondry btn-half"><span>{{ 'READMORE' | translate}}</span></a></div>
+
+                            <!-- LAYER 7 left dark Block -->
+							<div class="tp-caption rev-btn  tp-resizeme rev-slider-white-block"
+                                id="slide-73-layer-7"
+                                data-x="['right','right','left','right']" data-hoffset="['870','570','0','870']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-0%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":0,"to":"o:1;","delay":0,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":0,"to":"y:[-0%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','left']"
+                                data-paddingtop="[250,250,250,250]"
+                                data-paddingright="[250,150,150,150]"
+                                data-paddingbottom="[250,250,250,250]"
+                                data-paddingleft="[250,150,250,250]"
+
+                                style="z-index: 6; width:6000px;background-color:#23252d ;height:100vh;"></div>
+
+                            <!-- Border left Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-73-layer-8"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-left:40px solid #eef1f2;"> </div>
+
+                             <!-- Border bottom Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-73-layer-7"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-bottom:80px solid #eef1f2;"> </div>
+                        </li>
+
+                        <!-- SLIDE 2 -->
+                        <li data-index="rs-74" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/main-slider/slider1/slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../../../assets/images/main-slider/slider1/slide2.jpg" data-bgcolor='#f8f8f8' style='' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+
+            				<!-- LAYER 1  right image overlay dark-->
+                        	<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
+                            id="slide-74-layer-1"
+                            data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-fontweight="['100','100','400','400']"
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-whitespace="nowrap"
+
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="off"
+                            data-responsive="off"
+                            data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":150,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power2.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+
+                            style="z-index: 6;text-transform:left;background-color:rgba(0,0,0,0.5);">
+                            </div>
+
+                            <!-- LAYERS 2 number block-->
+							<div class="tp-caption rev-btn  tp-resizeme slider-block sx-bg-primary"
+                                id="slide-74-layer-2"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-220','-220','-220','50']"
+                                data-fontweight="['600','600','600','600']"
+                                data-fontsize="['120','120','80','80']"
+                                data-lineheight="['120','120','80','80']"
+
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[10,10,10,10]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[10,10,10,10]"
+
+                                style="z-index: 10; font-family: 'Poppins', sans-serif;">02</div>
+
+
+                            <!-- LAYER 3  Thin text title-->
+                            <div class="tp-caption   tp-resizeme slider-tag-line"
+                                id="slide-74-layer-3"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-80','-80','-80','170']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','650','620','380']"
+                                data-height="none"
+                                data-whitespace="nowrap"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":300,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[10,10,10,10]"
+                                data-paddingright="[20,20,20,0]"
+                                data-paddingbottom="[10,10,10,10]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index: 10; font-weight:200; letter-spacing:10px; color: #fff;font-family: 'Poppins', sans-serif; text-transform:uppercase">{{ 'HOME.SLIDER.02.TITLE' | translate}}</div>
+
+                            <!-- LAYER 4  Bold Title-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-74-layer-4"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['10','10','10','230']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','700','700','700']"
+                                data-height="none"
+                                data-whitespace="normal"
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,10]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,10]"
+
+                                style="z-index: 10; text-transform:uppercase; letter-spacing:10px; white-space: normal;font-weight: 600; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.02.SUBTITLE' | translate}}</div>
+
+                            <!-- LAYER 5  Paragraph-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-74-layer-5"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['90','90','90','300']"
+                                data-fontsize="['20','20','20','20']"
+                                data-lineheight="['30','30','30','30']"
+                                data-width="['600','600','600','380']"
+                                data-height="none"
+                                data-whitespace="normal"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,20]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                    style="z-index: 10; white-space: normal; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.02.DESCRIPTION' | translate}}</div>
+
+                            <!-- LAYER 6  Read More-->
+                            <div class="tp-caption rev-btn  tp-resizeme"
+                                id="slide-74-layer-6"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['180','180','180','410']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:9; line-height:30px;"><a href="Javascript:;" class="site-button-secondry btn-half"><span> {{ 'READMORE' | translate}}</span></a></div>
+
+                            <!-- LAYER 7 left dark Block -->
+							<div class="tp-caption rev-btn  tp-resizeme rev-slider-white-block"
+                                id="slide-74-layer-7"
+                                data-x="['right','right','left','right']" data-hoffset="['870','570','0','870']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-0%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":0,"to":"o:1;","delay":0,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":0,"to":"y:[-0%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','left']"
+                                data-paddingtop="[250,250,250,250]"
+                                data-paddingright="[250,150,150,150]"
+                                data-paddingbottom="[250,250,250,250]"
+                                data-paddingleft="[250,150,250,250]"
+
+                                style="z-index: 6; width:6000px;background-color:#23252d ;height:100vh;"></div>
+
+                            <!-- Border left Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-74-layer-8"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-left:40px solid #eef1f2;"> </div>
+
+                             <!-- Border bottom Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-74-layer-7"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-bottom:80px solid #eef1f2;"> </div>
+                        </li>
+
+                        <!-- SLIDE 3 -->
+                        <li data-index="rs-75" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/main-slider/slider1/slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../../../assets/images/main-slider/slider1/slide3.jpg" data-bgcolor='#f8f8f8' style='' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+
+            				<!-- LAYER 1  right image overlay dark-->
+                        	<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup"
+                            id="slide-75-layer-1"
+                            data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-fontweight="['100','100','400','400']"
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-whitespace="nowrap"
+
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="off"
+                            data-responsive="off"
+                            data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":150,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power2.easeInOut"}]'
+                            data-textAlign="['left','left','left','left']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+
+                            style="z-index: 6;text-transform:left;background-color:rgba(0,0,0,0.5);">
+                            </div>
+
+                            <!-- LAYERS 2 number block-->
+							<div class="tp-caption rev-btn  tp-resizeme slider-block sx-bg-primary"
+                                id="slide-75-layer-2"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-220','-220','-220','50']"
+                                data-fontweight="['600','600','600','600']"
+                                data-fontsize="['120','120','80','80']"
+                                data-lineheight="['120','120','80','80']"
+
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[10,10,10,10]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[10,10,10,10]"
+
+                                style="z-index: 10; font-family: 'Poppins', sans-serif;">03</div>
+
+                            <!-- LAYER 3  Thin text title-->
+                            <div class="tp-caption   tp-resizeme slider-tag-line"
+                                id="slide-75-layer-3"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['-80','-80','-80','170']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','650','620','380']"
+                                data-height="none"
+                                data-whitespace="nowrap"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":300,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[10,10,10,10]"
+                                data-paddingright="[20,20,20,0]"
+                                data-paddingbottom="[10,10,10,10]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index: 10; font-weight:200; letter-spacing:10px; color: #fff;font-family: 'Poppins', sans-serif; text-transform:uppercase">{{ 'HOME.SLIDER.03.TITLE' | translate}}</div>
+
+                            <!-- LAYER 4  Bold Title-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-75-layer-4"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['10','10','10','230']"
+                                data-fontsize="['64','64','60','40']"
+                                data-lineheight="['74','74','70','50']"
+                                data-width="['700','700','700','700']"
+                                data-height="none"
+                                data-whitespace="normal"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,10]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,10]"
+
+                                style="z-index: 10; text-transform:uppercase; letter-spacing:10px; white-space: normal;font-weight: 600; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.03.SUBTITLE' | translate}}</div>
+
+                            <!-- LAYER 5  Paragraph-->
+                            <div class="tp-caption   tp-resizeme"
+                                id="slide-75-layer-5"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['90','90','90','300']"
+                                data-fontsize="['20','20','20','20']"
+                                data-lineheight="['30','30','30','30']"
+                                data-width="['600','600','600','380']"
+                                data-height="none"
+                                data-whitespace="normal"
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"delay":200,"speed":750,"sfxcolor":"#fff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[20,20,20,20]"
+                                data-paddingright="[20,20,20,20]"
+                                data-paddingbottom="[30,30,30,30]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                    style="z-index: 10; white-space: normal; color: #fff;font-family: 'Poppins', sans-serif;">{{ 'HOME.SLIDER.03.DESCRIPTION' | translate}}</div>
+
+                            <!-- LAYER 6  Read More-->
+                            <div class="tp-caption rev-btn  tp-resizeme"
+                                id="slide-75-layer-6"
+                                data-x="['left','left','left','center']" data-hoffset="['60','60','30','0']"
+                                data-y="['middle','middle','middle','top']" data-voffset="['180','180','180','420']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":500,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','center']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:9; line-height:30px;"><a href="Javascript:;" class="site-button-secondry btn-half"><span>{{ 'HOME.READMORE' | translate}}</span></a></div>
+
+                            <!-- LAYER 7 left Dark Block -->
+							<div class="tp-caption rev-btn  tp-resizeme rev-slider-white-block"
+                                id="slide-75-layer-7"
+                                data-x="['right','right','left','right']" data-hoffset="['870','570','0','870']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
+                                data-frames='[{"from":"y:[-0%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":0,"to":"o:1;","delay":0,"ease":"Power3.easeInOut"},
+                                {"delay":"wait","speed":0,"to":"y:[-0%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+
+                                data-textAlign="['left','left','left','left']"
+                                data-paddingtop="[250,250,250,250]"
+                                data-paddingright="[250,150,150,150]"
+                                data-paddingbottom="[250,250,250,250]"
+                                data-paddingleft="[250,150,250,250]"
+
+                                style="z-index: 6; width:6000px;background-color:#23252d ;height:100vh;"></div>
+
+                            <!-- Border left Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-75-layer-8"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-left:40px solid #eef1f2;"> </div>
+
+                             <!-- Border bottom Part -->
+                            <div class="tp-caption tp-shape tp-shapewrapper "
+                                id="slide-75-layer-7"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                data-width="full"
+                                data-height="full"
+                                data-whitespace="nowrap"
+                                data-visibility="['on','on','off','off']"
+
+                                data-type="shape"
+                                data-basealign="slide"
+                                data-responsive_offset="off"
+                                data-responsive="off"
+                                data-frames='[{"delay":50,"speed":100,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeIn"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]"
+                                data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+
+                                style="z-index:8;background-color:rgba(0, 0, 0, 0);border-bottom:80px solid #eef1f2;"> </div>
+                        </li>
+
+
+
+                    </ul>
+                    <div class="tp-bannertimer"></div>
+                   <!-- left side social bar-->
+                    <div class="slide-left-social">
+                        <ul class="clearfix">
+
+                            <li><a href="#" class="sx-title-swip">Twitter</a></li>
+                            <li><a href="#"class="sx-title-swip" >Facebook</a></li>
+                            <li><a href="#" class="sx-title-swip" >Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    </div>
+            </div>
+            <!-- SLIDER END -->
+
+
+            <!-- ABOUT COMPANY START -->
+            <div class="section-full mobile-page-padding p-t80 p-b80 bg-white bg-no-repeat bg-bottom-left" style="background-image:url(images/background/bg-4.png)">
+                <div class="container">
+                    <!-- TITLE START -->
+					<div class="section-head">
+						<div class="sx-separator-outer separator-left">
+							<div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+								<h3 class="sep-line-one">{{ 'HOME.ABOUTAREA.TITLE' | translate}}</h3>
+							</div>
+						</div>
+					</div>
+                    <!-- TITLE END -->
+
+						<div class="section-content">
+                        	<div class="row">
+
+                                <div class="col-lg-5 col-md-12 col-sm-12">
+                                	<div class="about-home-left">
+                                    	<h3 class="m-t0 sx-tilte">{{ 'HOME.ABOUTAREA.CARDTITLE' | translate}}</h3>
+                                        <p>{{ 'HOME.ABOUTAREA.CARDDESCRIPTION' | translate}}</p>
+                                        <div class="text-left">
+                                            <a href="javascript:;" class="site-button-secondry btn-half"><span>{{ 'READMORE' | translate}}</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            	<div class="col-lg-7 col-md-12 col-sm-12">
+                                	<div class="about-home-right">
+                                        <div class="owl-carousel about-home number-slider owl-btn-vertical-center">
+                                            <!-- COLUMNS 1 -->
+                                            <div class="item ">
+                                                <div class="sx-img-effect zoom-slow">
+                                                    <a href="javascript:void(0);"><img src="../../../assets/images/about-slider/1.jpg" alt=""></a>
+                                               </div>
+                                            </div>
+                                            <!-- COLUMNS 2 -->
+                                            <div class="item ">
+                                                <div class="sx-img-effect zoom-slow">
+                                                    <a href="javascript:void(0);"><img src="../../../assets/images/about-slider/2.jpg" alt=""></a>
+                                               </div>
+                                            </div>
+                                            <!-- COLUMNS 3 -->
+                                            <div class="item ">
+                                                <div class="sx-img-effect zoom-slow">
+                                                    <a href="javascript:void(0);"><img src="../../../assets/images/about-slider/3.jpg" alt=""></a>
+                                               </div>
+                                            </div>
+                                            <!-- COLUMNS 4 -->
+                                            <div class="item ">
+                                                <div class="sx-img-effect zoom-slow">
+                                                    <a href="javascript:void(0);"><img src="../../../assets/images/about-slider/4.jpg" alt=""></a>
+                                               </div>
+                                            </div>
+                                            <!-- COLUMNS 5 -->
+                                            <div class="item ">
+                                                <div class="sx-img-effect zoom-slow">
+                                                    <a href="javascript:void(0);"><img src="../../../assets/images/about-slider/5.jpg" alt=""></a>
+                                               </div>
+                                            </div>
+                                       </div>
+                                        <div class="about-home-before">
+                                             <img src="../../../assets/images/about-slider/1-ab.jpg" alt="">
+                                       </div>
+                                   </div>
+                           		</div>
+
+
+                    		</div>
+                       </div>
+                 </div>
+
+            </div>
+            <!-- ABOUT COMPANY END -->
+
+
+            <!-- WHAT WE DO START -->
+            <div class="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style="background-image:url(images/background/bg-5.png);">
+
+				<div class="container right-half-bg-image-outer">
+                <div class="right-half-bg-image bg-parallax bg-fixed bg-top-right"  data-stellar-background-ratio="0" style="background-image:url(images/background/bg-2.jpg)"></div>
+                    <!-- TITLE START -->
+					<div class="section-head">
+						<div class="sx-separator-outer separator-left">
+							<div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+								<h3 class="sep-line-one">{{ 'HOME.WHATWEDOAREA.TITLE' | translate }}</h3>
+							</div>
+						</div>
+					</div>
+                    <!-- TITLE END -->
+                    <div class="section-content">
+                        <div class="row number-block-one-outer justify-content-center">
+                        	<div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+
+                                <div class="number-block-one animate-in-to-top">
+                                    <img src="../../../assets/images/pic1.jpg" alt="" />
+                                    <div class="figcaption bg-white text-center p-a20">
+                                        <h4 class="m-a0">{{ 'HOME.WHATWEDOAREA.01.DESCRIPTION' | translate }}</h4>
+                                    </div>
+                                    <div class="figcaption-number text-center sx-text-primary animate-in-to-top-content">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        	<div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+
+                                <div class="number-block-one animate-in-to-top">
+                                    <img src="../../../assets/images/pic2.jpg" alt="" />
+                                    <div class="figcaption bg-white text-center p-a20">
+                                        <h4 class="m-a0">{{ 'HOME.WHATWEDOAREA.02.DESCRIPTION' | translate }}</h4>
+                                    </div>
+                                    <div class="figcaption-number text-center sx-text-primary animate-in-to-top-content">
+                                        <span>02</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        	<div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+
+                                <div class="number-block-one animate-in-to-top">
+                                    <img src="../../../assets/images/pic3.jpg" alt="" />
+                                    <div class="figcaption bg-white text-center p-a20">
+                                        <h4 class="m-a0">{{ 'HOME.WHATWEDOAREA.03.DESCRIPTION' | translate }}</h4>
+                                    </div>
+                                    <div class="figcaption-number text-center sx-text-primary animate-in-to-top-content">
+                                        <span>03</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="large-title-block full-content bg-gray">
+                        	<div class="row">
+                            	<div class="col-lg-6 col-md-12 col-sm-12">
+                                	<div class="large-title">
+                                      <h3 class="m-tb0">{{ 'HOME.WHATWEDOAREA.WHATWEDOFOOTER.TITLE' | translate }}</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12	col-sm-12">
+                                	<div class="large-title-info">
+                                    	<p>{{ 'HOME.WHATWEDOAREA.WHATWEDOFOOTER.DESCRIPTION' | translate }}</p>
+										<div class="text-left">
+                                        	<!-- <a href="javascript:;" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- WHAT WE DO END -->
+
+            <!-- TESTIMONIAL START -->
+
+            <!-- <div class="section-full container-fluid">
+
+                <div class="section-content">
+                    <div class="row">
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 bg-gray bg-cover bg-no-repeat" style="background-image:url(images/background/bg-8.jpg)">
+                            <div class="sx-left-part mobile-page-padding">
+
+                                <div class="section-head">
+                                    <div class="sx-separator-outer separator-left">
+                                        <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                            <h3 class="sep-line-one">{{ 'HOME.INFOGRAPHIC.TITLE' | translate }}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="counter-blocks">
+                                	<div class="row">
+                                    	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 m-b30">
+                                            <div class="sx-count  text-black sx-icon-box-wraper bg-repeat  bg-white p-a30" style="background-image:url(images/background/bg-5.png)">
+                                                <h2 class="st-count-number sx-text-primary text-left"><span class="counter">24</span></h2>
+                                                <h4 class="m-tb0">{{ 'HOME.INFOGRAPHIC.YEARS' | translate }}</h4>
+                                            </div>
+                                        </div>
+
+                                    	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 m-b30">
+                                            <div class="sx-count text-black sx-icon-box-wraper bg-repeat  bg-white p-a30" style="background-image:url(images/background/bg-5.png)">
+                                                <h2 class="st-count-number sx-text-primary text-left"><span class="counter">340</span></h2>
+                                                <h4 class="m-tb0">{{ 'HOME.INFOGRAPHIC.PROJECT' | translate }}</h4>
+                                            </div>
+                                        </div>
+
+                                    	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 m-b30">
+                                            <div class="sx-count text-black sx-icon-box-wraper bg-repeat  bg-white p-a30" style="background-image:url(images/background/bg-5.png)">
+                                                <h2 class="st-count-number sx-text-primary text-left"><span class="counter">86</span></h2>
+                                                <h4 class="m-tb0">{{ 'HOME.INFOGRAPHIC.WON' | translate }}</h4>
+                                            </div>
+                                        </div>
+
+                                    	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 m-b30">
+                                            <div class="sx-count text-black sx-icon-box-wraper bg-repeat  bg-white p-a30" style="background-image:url(images/background/bg-5.png)">
+                                                <h2 class="st-count-number sx-text-primary text-left"><span class="counter">36</span><span>K</span></h2>
+                                                <h4 class="m-tb0">{{ 'HOME.INFOGRAPHIC.FOLLOWERS' | translate }}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 bg-white bg-repeat" style="background-image:url(images/background/bg-12.jpg)">
+
+                            <div class="sx-right-part mobile-page-padding  p-t80 p-b50">
+
+                                <div class="section-head">
+                                    <div class="sx-separator-outer separator-left">
+                                        <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(../../../assets/images/background/cross-line2.png)">
+                                            <h3 class="sep-line-one">Testimonial</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <div class="owl-carousel testimonial-home number-slider">
+                                    <div class="item">
+                                        <div class="testimonial-2  hover-animation-1">
+                                            <div class="testimonial-detail clearfix">
+                                                <div class="testimonial-pic shadow scale-in-center"><img src="../../../assets/images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
+                                                <h4 class="testimonial-name">Rosalina D. William</h4>
+                                                <span class="testimonial-position">Architect</span>
+                                                <span class="fa fa-quote-right"></span>
+                                            </div>
+                                            <div class="testimonial-text bg-white  shadow-sm">
+
+                                                <p>“Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks! which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-2  hover-animation-1">
+                                            <div class="testimonial-detail clearfix">
+                                                <div class="testimonial-pic shadow scale-in-center"><img src="../../../assets/images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
+                                                <h4 class="testimonial-name">Mitchal Jhon</h4>
+                                                <span class="testimonial-position">Architect</span>
+                                                <span class="fa fa-quote-right"></span>
+                                            </div>
+                                            <div class="testimonial-text bg-white  shadow-sm">
+                                                <p>“Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks! which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-2 hover-animation-1">
+                                            <div class="testimonial-detail clearfix">
+                                                <div class="testimonial-pic shadow scale-in-center"><img src="../../../assets/images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
+                                                <h4 class="testimonial-name">Barney Smith</h4>
+                                                <span class="testimonial-position">Interior designer</span>
+                                                <span class="fa fa-quote-right"></span>
+                                            </div>
+                                            <div class="testimonial-text bg-white  shadow-sm">
+                                                <p>“Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-2  hover-animation-1">
+                                            <div class="testimonial-detail clearfix">
+                                                <div class="testimonial-pic shadow scale-in-center"><img src="../../../assets/images/testimonials/pic4.jpg" width="100" height="100" alt=""></div>
+                                                <h4 class="testimonial-name">Rosalina D. William</h4>
+                                                <span class="testimonial-position">Architect</span>
+                                                <span class="fa fa-quote-right"></span>
+                                            </div>
+                                            <div class="testimonial-text bg-white  shadow-sm">
+
+                                                <p>“Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-2 hover-animation-1">
+                                            <div class="testimonial-detail clearfix">
+                                                <div class="testimonial-pic shadow scale-in-center"><img src="../../../assets/images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
+                                                <h4 class="testimonial-name">Rosalina D. William</h4>
+                                                <span class="testimonial-position">CEO, Intearch</span>
+                                                <span class="fa fa-quote-right"></span>
+                                            </div>
+                                            <div class="testimonial-text bg-white shadow-sm">
+
+                                                <p>“Great theme, just what we were looking for. Easy to install, easy to navigate. Well documented. Really enjoyed the support. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+               </div>
+
+            </div>  -->
+            <!-- TESTIMONIAL  END -->
+
+            <!-- OUR SERVICES START -->
+            <div class="section-full mobile-page-padding p-t80  p-b50 bg-gray">
+				<div class="section-content">
+                    <div class="container">
+                        <!-- TITLE START -->
+                        <div class="section-head">
+                            <div class="sx-separator-outer separator-left">
+                                <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                    <h3 class="sep-line-one ">{{ 'HOME.SERVICES.TITLE' | translate }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TITLE END -->
+                          <div class="row">
+
+                            <!-- Block one -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper  icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">01</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-sketch"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.01.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.01.DESCRIPTION' | translate }}</p>
+                                            <br>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Block Two -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">02</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-stairs"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.02.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.02.DESCRIPTION' | translate }}</p>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Block Three -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">03</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-window"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.03.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.03.DESCRIPTION' | translate }}</p>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Block Four -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">04</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-skyline"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.04.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.04.DESCRIPTION' | translate }}</p>
+                                            <br>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Block Five -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">05</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-bed"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.05.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.05.DESCRIPTION' | translate }}</p>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                           <!-- Block Six -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+
+                                <div class="sx-icon-box-wraper icon-count-2-outer">
+                                    <div class="icon-count-2 bg-white">
+                                        <span class="icon-count-number">06</span>
+                                        <div class="icon-xl inline-icon m-b5 scale-in-center">
+                                            <span class="icon-cell"><i class="flaticon-door"></i></span>
+                                        </div>
+                                        <div class="icon-content">
+                                            <h4 class="sx-tilte">{{ 'HOME.SERVICES.06.TITLE' | translate }}</h4>
+                                            <p>{{ 'HOME.SERVICES.06.DESCRIPTION' | translate }}</p>
+                                            <div class="text-left">
+                                            	<!-- <a href="#" class="site-button-link">{{ 'READMORE' | translate}}</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hilite-title text-left p-l50 text-uppercase">
+                    <strong>{{'HOME.SERVICES.TITLE' | translate}}</strong>
+                </div>
+            </div>
+            <!-- OUR SERVICES  END -->
+
+            <!-- PROJECTS START -->
+            <div class="section-full mobile-page-padding  p-t80 p-b50 bg-white">
+				<div class="section-content">
+                	<div class="container">
+                        <!-- TITLE START -->
+                        <div class="section-head">
+                            <div class="sx-separator-outer separator-center">
+                                <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                    <h3 class="sep-line-one">All Projects</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TITLE END -->
+                     </div>
+
+                     <div class=" filter-carousal-1-outer relative z-index1">
+                     	<div class="container">
+                        <!-- TITLE START -->
+                            <div class="text-center clearfix filter-pos-right shadow m-b30">
+                                <ul class="btn-filter-wrap">
+                                    <li class="btn-filter btn-active" data-filter="*">All</li>
+                                    <li class="btn-filter" data-filter=".col-one">Bathroom</li>
+                                    <li class="btn-filter" data-filter=".col-two">Decoration</li>
+                                    <li class="btn-filter" data-filter=".col-three">Kitchen</li>
+                                    <li class="btn-filter" data-filter=".col-four">Living room</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- TITLE END -->
+                        <div class="filter-carousal-1  container-fluid p-b30">
+                            <!-- IMAGE CAROUSEL START -->
+                            <div class="section-content ">
+                                <div class="owl-carousel owl-carousel-filter  owl-btn-bottom-center mfp-gallery navigation-with-name">
+                                    <!-- COLUMNS 1 -->
+                                    <div class="item fadingcol col-one overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic1.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic1.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 2 -->
+                                    <div class="item fadingcol col-two overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic2.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic2.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 3 -->
+                                    <div class="item fadingcol col-three overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic3.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic3.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 4 -->
+                                    <div class="item fadingcol col-four overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic4.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic4.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 5 -->
+                                    <div class="item fadingcol col-three overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic5.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic5.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 6 -->
+                                    <div class="item fadingcol col-two overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic6.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic6.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                    <!-- COLUMNS 7 -->
+                                    <div class="item fadingcol col-one overflow-hide">
+                                        <div class="sx-box   image-hover-block">
+                                            <div class="sx-thum-bx">
+                                                <img src="../../../assets/images/projects/portrait/pic7.jpg" alt="">
+                                            </div>
+                                            <div class="sx-info  p-t20 text-white">
+                                                <h4 class="sx-tilte"><a href="#">Chair Furniture</a></h4>
+                                                <p class="m-b0">Muscat, Sultanate of Oman</p>
+                                            </div>
+                                            <a class="mfp-link" href="../../../assets/images/projects/portrait/pic7.jpg">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECTS  END -->
+
+            <!-- OUR CLIENTS -->
+            <div class="section-full  mobile-page-padding bg-gray  p-t80 p-b10 bg-repeat" style="background-image:url(images/background/bg-12.jpg);">
+
+				<div class="container">
+
+                    <!-- TITLE START -->
+					<div class="section-head">
+						<div class="sx-separator-outer separator-left">
+							<div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+								<h3 class="sep-line-one">{{ 'HOME.OURCLIENTS' | translate}}</h3>
+							</div>
+						</div>
+					</div>
+                    <!-- TITLE END -->
+					<div class="section-content">
+                    	<div class="client-grid m-b40">
+
+                        	<div class="row justify-content-center">
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6 m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo1.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6 m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo2.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo3.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo4.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo5.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo6.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo7.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-6  m-b30">
+                                    <a  class="client-logo-pic">
+                                    <img src="../../../assets/images/client-logo/logo8.png" alt="">
+                                      <div>
+
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hilite-title text-left  p-l50 text-uppercase">
+                    <strong>{{'HOME.OURCLIENTS' | translate}}</strong>
+                </div>
+             </div>
+            <!-- OUR CLIENTS END -->
+
+             <!-- OUR TEAM START -->
+             <!-- <div class="section-full p-t80 p-b50 mobile-page-padding">
+                        <div class="container"> -->
+                            <!-- TITLE START -->
+                            <!-- <div class="section-head">
+                                <div class="sx-separator-outer separator-left">
+                                    <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                        <h3 class="sep-line-one">Super Team</h3>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- TITLE END -->
+
+                            <!-- IMAGE CAROUSEL START -->
+                            <!-- <div class="section-content">
+                                <div class="row team-item-four">
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 m-b30   ">
+                                        <div class="our-team-2 ">
+                                              <div class="profile-image">
+                                                  <img src="../../../assets/images/our-team5/1.jpg" alt="" />
+                                                 <div class="icons">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                              </div>
+                                         	  <div class="figcaption text-black">
+                                                 <h4 class="m-t0"><a href="team-single.html">Johnny Jackman</a></h4>
+                                                 <span class="m-b0">Architect</span>
+                                              </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 m-b30   ">
+                                        <div class="our-team-2 ">
+                                              <div class="profile-image">
+                                                <img src="../../../assets/images/our-team5/2.jpg" alt="" />
+                                                 <div class="icons">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                              </div>
+                                          	<div class="figcaption text-black">
+                                                <h4 class="m-t0"><a href="team-single.html">Daniel Rickman</a></h4>
+                                                <span class="m-b0">Architect </span>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+                                        <div class="our-team-2 ">
+                                              <div class="profile-image">
+                                                <img src="../../../assets/images/our-team5/3.jpg" alt="" />
+                                                 <div class="icons">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                              </div>
+                                              <div class="figcaption text-black">
+                                                  <h4 class="m-t0"><a href="team-single.html">Mark Norwich</a></h4>
+                                                  <span class="m-b0">Finances</span>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-6 m-b30   ">
+                                        <div class="our-team-2">
+                                              <div class="profile-image">
+                                                <img src="../../../assets/images/our-team5/4.jpg" alt="" />
+                                                 <div class="icons">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                              </div>
+                                              <div class="figcaption text-black">
+                                                  <h4 class="m-t0"><a href="team-single.html">Nich Jonas</a></h4>
+                                                  <span class="m-b0">Finances</span>
+                                              </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                     </div> -->
+            <!-- OUR Team END -->
+
+        </div>
+        <!-- CONTENT END -->
+
+        <!-- FOOTER START -->
+        <app-footer></app-footer>
+        <!-- FOOTER END -->
+
+        <!-- BUTTON TOP START -->
+		<button class="scroltop"><span class="fa fa-angle-up  relative" id="btn-vibrate"></span></button>
+
+    </div>
+
+    <app-loading></app-loading>

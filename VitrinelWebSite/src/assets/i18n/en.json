@@ -1,6 +1,94 @@
 {
+  "READMORE": "Read More",
+  "USEFULLINKS": "Useful links",
+  "PREV": "Prev",
+  "NEXT": "Next",
   "HOME": {
     "HELLO": "HELLO FOR EN",
-    "TITLE" : "EN TITLE"
+    "TITLE" : "EN TITLE",
+    "PHONE": "Call",
+    "WHATWEDO": "What we do ?",
+    "OURCLIENTS":"Clients",
+    "NAVIGATION": {
+      "HOME" :"Home",
+      "PROJECTS" :"Projects",
+      "SERVICES" :"Services",
+      "ABOUT" :"About Us",
+      "CONTACT" :"Contact Us"
+    },
+    "SLIDER":{
+      "01":{
+        "TITLE":"MODISH",
+        "SUBTITLE" : "DELUXE KITCHEN",
+        "DESCRIPTION": "Right design and right ideas matter a lot of in interior design business."
+      },
+      "02": {
+        "TITLE": "ELEGENT",
+        "SUBTITLE": "BRICK HOUSE",
+        "DESCRIPTION": "Interior designing is the art and science which enhance your mind."
+      },
+      "03":{
+        "TITLE": "CREATIVE",
+        "SUBTITLE": "THINKINGS",
+        "DESCRIPTION": "A multitask profession which creates any land in beautiful creation."
+      }
+    },
+    "ABOUTAREA": {
+      "TITLE": "About Us",
+      "CARDTITLE": "We are competitive in architecture solutions",
+      "CARDDESCRIPTION":"Landscape design is a process of developing practical and pleasing outdoor living space. there are six principles of design that have been used by artists for centuries throughout all art forms, painting and floral design..."
+    },
+    "WHATWEDOAREA":{
+      "TITLE":"What we do ?",
+      "01": {
+        "DESCRIPTION": "Interior Design"
+      },
+      "02": {
+        "DESCRIPTION": "Architecture"
+      },
+      "03": {
+        "DESCRIPTION": "Floor Plan"
+      },
+      "WHATWEDOFOOTER":{
+        "TITLE": "We present the idea with impressive details.",
+        "DESCRIPTION" : "Vivid colors and abstract patterns, combined with unique uses of light, textures, and space, create an outdoor space that magnifies."
+      }
+    },
+    "INFOGRAPHIC":{
+      "TITLE": "Infographic",
+      "YEARS": "Years of Experince",
+      "PROJECT" : " Project Taken",
+      "WON": "Awards Won",
+      "FOLLOWERS" : "Followers"
+    },
+    "SERVICES": {
+      "TITLE":"Services",
+      "01":{
+        "TITLE": "Plans and Projects",
+        "DESCRIPTION": "We provide a range of architectural 3D modeling services to our customers to aid the design"
+      },
+      "02":{
+        "TITLE": "Interior",
+        "DESCRIPTION": "Analysis and planning services that help both the client and architects to work out the forthcoming project"
+      },
+      "03":{
+        "TITLE": "Exterior",
+        "DESCRIPTION": "We offer comprehensive Architectural Engineering Services including Interior design, Master planning, 3D modeling."
+      },
+      "04":{
+        "TITLE": "Architecture",
+        "DESCRIPTION": "Project management is the process by which our team plans and executes your project."
+      },
+      "05":{
+        "TITLE": "Furniture",
+        "DESCRIPTION": "Our team also provides consultations on all architectural issues, even if you need specific info about working"
+      },
+      "06":{
+        "TITLE": "Decoration",
+        "DESCRIPTION": "We combine Interior and Exterior Design services and often provide them as a single solution."
+      }
+
+    }
   }
+
 }

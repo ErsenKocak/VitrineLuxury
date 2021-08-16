@@ -1,34 +1,34 @@
 /*
 ==========================
 Author: 7xtheme team
-Version: 1.0  
+Version: 1.0
 ==========================
 */
 
 
 /*____GENERAL____
 ===============================
-		|____HEADING & TITLE____	
-		|____TEXT & PARAGRAPH____	
-		|____TEXT ALIGN____		
-		|____TEXT VERTICLE ALIGN____	
-		|____TEXT NO LINE BRACK____		
-		|____TEXT TRANSFORM____		
-		|____TEXT SIZE____	
+		|____HEADING & TITLE____
+		|____TEXT & PARAGRAPH____
+		|____TEXT ALIGN____
+		|____TEXT VERTICLE ALIGN____
+		|____TEXT NO LINE BRACK____
+		|____TEXT TRANSFORM____
+		|____TEXT SIZE____
 		|____TEXT BOLD____*/
 
 
 /*======================================
-  || CSS TABLE CONTENT ||  
+  || CSS TABLE CONTENT ||
 =======================================
 
-/*____GENERAL 
+/*____GENERAL
 =======================================
 
-/*____HEADING & TITLE 
+/*____HEADING & TITLE
 =======================================
 
-/*____TEXT & PARAGRAPH 
+/*____TEXT & PARAGRAPH
 =======================================
 
 	|____text align
@@ -38,7 +38,7 @@ Version: 1.0
 	|____text size
 	|____text bold
 
-/*____LISTING STYLES 
+/*____LISTING STYLES
 ======================================
 
 	|____listing before icon color css
@@ -68,11 +68,11 @@ Version: 1.0
 ======================================
 
 	|____position
-		|____relative		
-		|____absolute		
-		|____ static	
+		|____relative
+		|____absolute
+		|____ static
 	|____z-index
-	
+
 
 /*____COLOR
 ======================================
@@ -80,7 +80,7 @@ Version: 1.0
 	|____text
 	|____background color
 	|____background image
-	
+
 
 /*____OVERLAY ( transparient box style  )
 ======================================
@@ -88,7 +88,7 @@ Version: 1.0
 	|____use for box
 	|____left right part css
 
-/*____ BOXES CSS 
+/*____ BOXES CSS
 ======================================
 
 	|____box content
@@ -103,7 +103,7 @@ Version: 1.0
 	|____for images
 
 
-/*____IMAGES OVERLAY EFFECTS (overly animation on images)  
+/*____IMAGES OVERLAY EFFECTS (overly animation on images)
 ======================================
 
 	|____effect 1
@@ -111,95 +111,95 @@ Version: 1.0
 		|____Gradient-white
 	-------------------------------------
 
-/*____shortcodeS 
+/*____shortcodeS
 ======================================
 
-	|____Buttons 
-	------------------------------------- 
-		|____theme default button 		
-		|____button text uppercase		
-		|____button size 		
-		|____button rounded		
-		|____white 		
-		|____black 		
-		|____Gray 		
-		|____pink 		
-		|____Blue		
-		|____Green		
-		|____Orange		
-		|____Red 		
-		|____Brown 
-		|____Yellow 
-		|____purple 
-		|____Graphical 
-		|____Outline 
-		|____Outline white  
-		|____Outline black 
-		|____Outline gray 
-		|____Outline pink 
-		|____Outline blue 
-		|____Outline green 
-		|____Outline orange 
-		|____Outline red 
-		|____Outline brown 
-		|____Outline yellow 
-		|____Outline purple 
-		|____Outline hover 
-		|____button text link 
-		|____text link white 
-		|____text link black 
-		|____text link Gray 
-		|____text link pink 
-		|____text link Blue 
-		|____text link Green 
-		|____text link Orange 
-		|____text link Red 
-		|____text link Brown 
-		|____text link Yellow 
-		|____text link purple 
-		|____app strore 
-		|____filter buttons css 
-		|____Masonry filter alignment [Left-Right-Center] 
-		|____Masonry filter link style 
-		|____Masonry filter button style 
-		|____Masonry filter button outline style 
-		
-		
-	|____Title separators 
+	|____Buttons
 	-------------------------------------
-		|____Separator defualt		
-		|____Separator liner		
-		|____Separator square		
+		|____theme default button
+		|____button text uppercase
+		|____button size
+		|____button rounded
+		|____white
+		|____black
+		|____Gray
+		|____pink
+		|____Blue
+		|____Green
+		|____Orange
+		|____Red
+		|____Brown
+		|____Yellow
+		|____purple
+		|____Graphical
+		|____Outline
+		|____Outline white
+		|____Outline black
+		|____Outline gray
+		|____Outline pink
+		|____Outline blue
+		|____Outline green
+		|____Outline orange
+		|____Outline red
+		|____Outline brown
+		|____Outline yellow
+		|____Outline purple
+		|____Outline hover
+		|____button text link
+		|____text link white
+		|____text link black
+		|____text link Gray
+		|____text link pink
+		|____text link Blue
+		|____text link Green
+		|____text link Orange
+		|____text link Red
+		|____text link Brown
+		|____text link Yellow
+		|____text link purple
+		|____app strore
+		|____filter buttons css
+		|____Masonry filter alignment [Left-Right-Center]
+		|____Masonry filter link style
+		|____Masonry filter button style
+		|____Masonry filter button outline style
+
+
+	|____Title separators
+	-------------------------------------
+		|____Separator defualt
+		|____Separator liner
+		|____Separator square
 		|____Separator icon
-		
-	|____Deviders 
-	|____TABS 
+
+	|____Deviders
+	|____TABS
 	-------------------------------------
-		|____tabs style 1 [ default ] 		
-		|____tabs nav center 		
-		|____tabs bg  [ tabs background ] 		
-		|____tabs bg  [ tabs background ]		
-		|____tabs bg & top border  [ tabs background & top border in active ]		
-		|____tabs style 2 [ content with border outer ]		
-		|____tabs style 3  [ left-nav ] 		
-		|____tabs style 4  [ left-nav & content with border ] 		
-		|____tabs style 5  [ right-nav ] 		
+		|____tabs style 1 [ default ]
+		|____tabs nav center
+		|____tabs bg  [ tabs background ]
+		|____tabs bg  [ tabs background ]
+		|____tabs bg & top border  [ tabs background & top border in active ]
+		|____tabs style 2 [ content with border outer ]
+		|____tabs style 3  [ left-nav ]
+		|____tabs style 4  [ left-nav & content with border ]
+		|____tabs style 5  [ right-nav ]
 		|____tabs style 6  [ right-nav & content with border ]
-		
-		
-	|____Accordians 
+
+
+	|____Accordians
 	-------------------------------------
 	Accodian open close indicator css
-		|____Accordion defult		
-		|____Accordion outline		
-		|____Accordion bg gray		
-		|____Accordion bg primary		
+		|____Accordion defult
+		|____Accordion outline
+		|____Accordion bg gray
+		|____Accordion bg primary
 		|____Accordion bg dark
-		
-	|____Carousels 
+
+	|____Carousels
 	|____Client carousel 1
-	
-	|____Testimonials 
+
+	|____Testimonials
 	-------------------------------------
 		|____testimonial with background image
 		|____testimonial 6
@@ -208,79 +208,79 @@ Version: 1.0
 	-------------------------------------
 		|____Pricing table
 		|____pricing table style 2
-		
-	|____Alert box 
-	|____Image effects 
+
+	|____Alert box
+	|____Image effects
 	-------------------------------------
-		|____image-opacity 
-		|____image-zoom 
-		|____image-zoom-slow 
-		|____image-shrink 
-		|____image-side-pan 
-		|____image-vertical-pan 
-		|____image-fade-in 
-		|____image-fade-out 
-		|____image-rotate 
-		|____image-sepia 
-		|____image-blurr 
-		|____image-blurr-invert 
-		|____image off color 
-		|____image on color 
-		
-	|____ Modal pop 
-	|____ Social icons 
+		|____image-opacity
+		|____image-zoom
+		|____image-zoom-slow
+		|____image-shrink
+		|____image-side-pan
+		|____image-vertical-pan
+		|____image-fade-in
+		|____image-fade-out
+		|____image-rotate
+		|____image-sepia
+		|____image-blurr
+		|____image-blurr-invert
+		|____image off color
+		|____image on color
+
+	|____ Modal pop
+	|____ Social icons
 	-------------------------------------
-		|____social icon default 
-		|____social icon with border 
-		|____social icon dark 
-		|____social share icon style 1 
-		
-	|____ Breadcrumb 
+		|____social icon default
+		|____social icon with border
+		|____social icon dark
+		|____social share icon style 1
+
+	|____ Breadcrumb
 	-------------------------------------
 		|____breadcrumb-row-1
-		|____Breadcrumb-1 
-		
-	|____Google map 
-	|____Countdown clock 
-	|____Form elements 
-	
-	-------------------------------------  
-		|____input group 
-		|____ radio & checkbox 
-		|____Browse Button css   
-		|____validation symbol 
-		|____error for select box 
-		|____ succes for select box 
-		|____ textarea 
-		
+		|____Breadcrumb-1
+
+	|____Google map
+	|____Countdown clock
+	|____Form elements
+
+	-------------------------------------
+		|____input group
+		|____ radio & checkbox
+		|____Browse Button css
+		|____validation symbol
+		|____error for select box
+		|____ succes for select box
+		|____ textarea
+
 			|____resize-vertical
 			|____resize-horizontal
 			|____resize-none
-			
-	|____ Loading 
-	-------------------------------------  
+
+	|____ Loading
+	-------------------------------------
 		|____ loading - 1
 		|____loading - 2
-		
-	|____Widgets 
-	------------------------------------- 
-		|____widget listing		
-		|____widget search custom		
-		|____widget search wp-default		
-		|____widget recent-posts		
-		|____widget tags-list		
-		|____widget gallery		
-		|____widget client slider 
-		
-	|____Table 
-	|____Video 
+
+	|____Widgets
 	-------------------------------------
-	
-/*____WP DEFAULT  
+		|____widget listing
+		|____widget search custom
+		|____widget search wp-default
+		|____widget recent-posts
+		|____widget tags-list
+		|____widget gallery
+		|____widget client slider
+
+	|____Table
+	|____Video
+	-------------------------------------
+
+/*____WP DEFAULT
 ======================================
 
-/*____BLOG  
-====================================== 
+/*____BLOG
+======================================
 
 	-------------------------------------
 	|____if no image with blog post
@@ -301,16 +301,16 @@ Version: 1.0
 /*____LOGO ( company identify  symbol )
 ======================================
 
-	|____logo for header 
-	|____when header is sticky 
-	
+	|____logo for header
+	|____when header is sticky
+
 /*____MAIN BAR ( place logo & main-navigation )
 ======================================
 
 	main bar with box view
 	|____Top Part Search Bar
 
-/*____NAVIGATIONS 
+/*____NAVIGATIONS
 ======================================
 
 	|____mena-menu
@@ -323,13 +323,13 @@ Version: 1.0
 /*____BANNER
 ======================================
 
-	|____inner page banner 
+	|____inner page banner
 	-------------------------------------
 
 /*____SLIDER
 ======================================
 
-	|____ owl slider 
+	|____ owl slider
 	-------------------------------------
 		|____next pre btn
 		|____owl dots button
@@ -344,20 +344,20 @@ Version: 1.0
 		|____owl slider button
 		|____owl dots nav position
 
-/*____ PAGINATION 
+/*____ PAGINATION
 ======================================
 
 
-	|____pagination style-1 
+	|____pagination style-1
 
-/*____FOOTER 
+/*____FOOTER
 ======================================
 
 	|____ footer fixed on bottom css
 	-------------------------------------
 		|____footer fixed with fullscreen view
 		|____footer fixed with boxed view
-		
+
 	|____widget Getintuch
 	|____scroll top btn css
 	-------------------------------------
@@ -365,14 +365,14 @@ Version: 1.0
 /*____PAGE-CONTENT
 ======================================
 
-	|____Section Head Part 
-	|____Section Content Part 
+	|____Section Head Part
+	|____Section Content Part
 	-------------------------------------
 
 /*____ AFTER-LOGIN-CONTENT
 ======================================
 
-	|____ Contact us page 
+	|____ Contact us page
 	-------------------------------------
 
 /*____THEMEFOREST REQUIRED CLASSES
@@ -387,29 +387,29 @@ Version: 1.0
 /*____SHOP & PRODUCT DETAIL (Woocommerce)
 ======================================
 
-	|____Product Box 
+	|____Product Box
 	-------------------------------------
 
-/*____content show on image box () 
+/*____content show on image box ()
 ======================================
 
- 	|____info box show 
+ 	|____info box show
 
-/*____Customize  Grouping css 
+/*____Customize  Grouping css
 ======================================
 
-	|____set-radius 
-	|____transition 
-	|____float-clearfix 
+	|____set-radius
+	|____transition
+	|____float-clearfix
 	-------------------------------------
 
-/*____Inner pages 
+/*____Inner pages
 ======================================
 	|____Out Team
 	-------------------------------------
 		|____Out Team six
 	|____product block
-	------------------------------------- 
+	-------------------------------------
 /*____Background Effects
 ======================================
 
@@ -451,7 +451,7 @@ Version: 1.0
 */
 
 
-/*____GENERAL 
+/*____GENERAL
 ======================================*/
 
 body {
@@ -592,7 +592,7 @@ table {
 }
 
 
-/*____HEADING & TITLE 
+/*____HEADING & TITLE
 ======================================*/
 
 h1,
@@ -697,7 +697,7 @@ h6 {
 }
 
 
-/*____TEXT & PARAGRAPH 
+/*____TEXT & PARAGRAPH
 ======================================*/
 
 p {
@@ -969,7 +969,7 @@ strong {
 }
 
 
-/*____LISTING STYLES 
+/*____LISTING STYLES
 ======================================*/
 
 dl,
@@ -2619,12 +2619,12 @@ padding:80px 15px 50px 15px;
 
 @media only screen and (max-width:991px) {
 .sx-left-part {
-	
+
 	max-width: 720px;
 	margin:0px auto;
 }
 .sx-right-part {
-	
+
 	max-width: 720px;
 	margin:0px auto;
 	padding-bottom:130px;
@@ -2640,14 +2640,14 @@ padding:80px 15px 50px 15px;
 		padding-bottom:80px !important;
 	}
 	.sx-left-part{
-		padding:30px 0px 0px 0px !important;		
-	}	
-	
+		padding:30px 0px 0px 0px !important;
+	}
+
 }
 @media only screen and (max-width:575px) {
 	.sx-left-part{
-		padding:30px 0px 30px 0px !important;		
-	}	
+		padding:30px 0px 30px 0px !important;
+	}
 }
 @media only screen and (max-width:768px) {
 	.sx-right-part {
@@ -2724,7 +2724,7 @@ padding:80px 15px 50px 15px;
 }
 
 
-/*____BOXES CSS 
+/*____BOXES CSS
 ======================================*/
 
 .rounded-bx,
@@ -3391,7 +3391,7 @@ padding:80px 15px 50px 15px;
 .yt-thum-box{
 	max-height:270px;
 }
-/*____IMAGES OVERLAY EFFECTS (overly animation on images)  
+/*____IMAGES OVERLAY EFFECTS (overly animation on images)
 ======================================*/
 
 .sx-img-overlay1,
@@ -3497,7 +3497,7 @@ padding:80px 15px 50px 15px;
 .sx-img-overlay7:hover:before,
 .sx-img-overlay7:hover:after,
 .sx-box:hover .sx-img-overlay7:before,
-.sx-box:hover .sx-img-overlay7:after { 
+.sx-box:hover .sx-img-overlay7:after {
 	width:50%;
 }
 
@@ -3539,12 +3539,12 @@ padding:80px 15px 50px 15px;
 }
 
 
-/*____shortcodeS 
+/*____shortcodeS
 ======================================*/
 
 
 /*-------------------------------------
-	Buttons 
+	Buttons
 --------------------------------------- */
 
 
@@ -3580,7 +3580,7 @@ padding:80px 15px 50px 15px;
     padding: 10px 10px;
     letter-spacing: 3px;
 	font-size:12px;
-}	
+}
 }
 
 .rev-btn .site-button,
@@ -4023,7 +4023,7 @@ padding:80px 15px 50px 15px;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;	
+	transition: all 0.5s linear;
 }
 .site-button-link:hover:before{
 	background:none;
@@ -4065,7 +4065,7 @@ position:relative;
 -webkit-animation:linear infinite alternate;
 -webkit-animation-name: run;
 -webkit-animation-duration: 1s;
-}     
+}
 @-webkit-keyframes run {
     0% { left: 0;}
     50%{ left : 5px;}
@@ -4477,16 +4477,16 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Title separators 
+	Title separators
 -------------------------------------*/
 .sx-separator-outer {	overflow:hidden;}
 
 
-.sx-separator{	
+.sx-separator{
 	display:inline-block;
 	margin-top:0px;
 	border:1px solid #ebebeb;
-	
+
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
@@ -4496,7 +4496,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 }
 
 
-.sep-line-one{	
+.sep-line-one{
 	position:relative;
 }
 
@@ -4542,11 +4542,11 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 @media only screen and (max-width: 768px){
 .sx-separator h1,
 .sx-separator h2,
-.sx-separator h3{	
+.sx-separator h3{
 	font-size:24px;
 	margin-bottom:0px;
 }
-.sx-separator{margin-bottom:0px;}	
+.sx-separator{margin-bottom:0px;}
 
 .sx-separator-outer.separator-left .sep-line-one{padding:10px 60px 10px 20px;font-size:26px; font-weight:700;}
 .sx-separator-outer.separator-right .sep-line-one{padding:10px 20px 10px 60px; font-size:26px; font-weight:700;}
@@ -4564,7 +4564,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 }
 
 /*-------------------------------------
-	Deviders 
+	Deviders
 -------------------------------------*/
 
 .sx-divider {
@@ -4624,7 +4624,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	TABS 
+	TABS
 -------------------------------------*/
 
 .sx-tabs:after {
@@ -4895,7 +4895,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Accordians 
+	Accordians
 -------------------------------------*/
 
 .sx-accordion .sx-panel {
@@ -5163,7 +5163,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	7. Testimonials 
+	7. Testimonials
 -------------------------------------*/
 
 .testimonial-pic {
@@ -5623,7 +5623,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
     display:none
 }
 .pricing-table-style-5 .pricingtable-title{
-	background-color:inherit;	
+	background-color:inherit;
 	padding: 40px 20px 0px 20px
 }
 
@@ -5667,7 +5667,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 }
 
 /*-------------------------------------
-	Alert box 
+	Alert box
 -------------------------------------*/
 
 .alert.alert-sm {
@@ -5711,7 +5711,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Image effects 
+	Image effects
 -------------------------------------*/
 
 .sx-img-effect {
@@ -5946,10 +5946,10 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 }
 
 /*Glass reflection */
- 
+
 
 .img-reflection{
-	background-position:left top;	
+	background-position:left top;
 	position:relative;
 	overflow:hidden;
 	background-size:100% auto;
@@ -5968,7 +5968,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
-	
+
 	-moz-transform: rotate(40deg);
 	-webkit-transform: rotate(40deg);
 	-o-transform: rotate(40deg);
@@ -5980,7 +5980,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 }
 
 /*-------------------------------------
-	Modal pop 
+	Modal pop
 -------------------------------------*/
 
 .modal-xlg {
@@ -5997,10 +5997,14 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Social icons 
+	Social icons
 -------------------------------------*/
 
 .social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 25px;
+  padding-right: 25px;
 	list-style: none;
 	margin-left: -3px;
 	margin-right: -3px;
@@ -6261,7 +6265,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Breadcrumb 
+	Breadcrumb
 -------------------------------------*/
 
 
@@ -6316,7 +6320,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Google map 
+	Google map
 -------------------------------------*/
 
 .google-map {
@@ -6326,7 +6330,7 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 
 
 /*-------------------------------------
-	Form elements 
+	Form elements
 -------------------------------------*/
 
 label {
@@ -6565,7 +6569,7 @@ input[type=radio]:checked+label:before {
 
 
 /*-------------------------------------
-	 Loading 
+	 Loading
 -------------------------------------*/
 
 
@@ -6632,7 +6636,7 @@ input[type=radio]:checked+label:before {
 
 
 /*-------------------------------------
-	Widgets 
+	Widgets
 -------------------------------------*/
 
 .widget {
@@ -6690,7 +6694,7 @@ input[type=radio]:checked+label:before {
 .widget_services ul li a span{
 	text-align:right;
 	display:block;
-	float:right;	
+	float:right;
 }
 
 .widget_services ul li a:hover {
@@ -7045,7 +7049,7 @@ input[type=radio]:checked+label:before {
 
 
 .call-to-action-wrap{
-	position: relative;	
+	position: relative;
 }
 .call-to-action-right{
 	padding-top: 5px;
@@ -7119,7 +7123,7 @@ input[type=radio]:checked+label:before {
 }
 
 /*-------------------------------------
-	Table 
+	Table
 -------------------------------------*/
 
 
@@ -7173,7 +7177,7 @@ input[type=radio]:checked+label:before {
 
 
 /*-------------------------------------
-	Video 
+	Video
 -------------------------------------*/
 
 .yt-thum-box img {
@@ -7182,7 +7186,7 @@ input[type=radio]:checked+label:before {
 
 
 /*======================================
-1WP DEFAULT  
+1WP DEFAULT
 ======================================*/
 
 .alignnone {
@@ -7338,7 +7342,7 @@ blockquote.author-quote .fa-quote-left {
 }
 
 
-/*____BLOG  
+/*____BLOG
 ======================================*/
 
 .blog-post {
@@ -7566,7 +7570,7 @@ ol.comment-list li .children li {
 ol.comment-list li .children {
     list-style: none;
     margin-left: 40px;
-}	
+}
 ol.comment-list li.comment .reply {
     text-align: center;
 }
@@ -7576,7 +7580,7 @@ ol.comment-list li.comment .reply {
 @media only screen and (max-width: 380px) {
 	ol.comment-list {
 		padding: 0px;
-	}	
+	}
 	ol.comment-list li.comment .comment-author .avatar {
 		position: inherit;
 		left: inherit;
@@ -7590,8 +7594,8 @@ ol.comment-list li.comment .reply {
 		position: relative;
 		padding: 0;
 		margin-bottom: 10px;
-	
-	}	
+
+	}
 }
 
 
@@ -7934,7 +7938,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .recent-posts-entry-date .widget-post{
 	border-bottom:1px solid #2e313b;
 	margin-bottom: 15px;
-	padding-bottom: 5px;	
+	padding-bottom: 5px;
 }
 .recent-posts-entry-date .widget-post .sx-post-meta {
     margin-bottom: 13px;
@@ -8116,7 +8120,7 @@ HEADER (top part of page)
 
 
 /*-------------------------------------
-	logo for header 
+	logo for header
 -------------------------------------*/
 
 .logo-header {
@@ -8201,7 +8205,7 @@ HEADER (top part of page)
 	color:#fff;
 }
 /*-------------------------------------
-	eamil-phone (left) 
+	eamil-phone (left)
 -------------------------------------*/
 .e-p-bx{
 padding:7px 0px;
@@ -8254,7 +8258,7 @@ padding:7px 0px;
 }
 }
 /*-------------------------------------
-	social-links (right) 
+	social-links (right)
 -------------------------------------*/
 
 .social-bx {
@@ -8441,8 +8445,8 @@ padding:7px 0px;
 }
 .top-bar.bg-gray .fa{color:#222;}
 
-	
-	
+
+
 .sx-topbar-left,
 .sx-topbar-right,
 .sx-topbar-center {
@@ -8458,7 +8462,7 @@ padding:7px 0px;
 .sx-topbar-center {
 	text-align:center;
 }
-	
+
 /*header style 1*/
 .header-style-1.nav-wide .container{
 	padding-left:40px;
@@ -8490,8 +8494,8 @@ padding:7px 0px;
 
 .header-style-1.nav-wide .header-nav .nav{
 	float:left;
-}		
-	
+}
+
 @media only screen and (max-width: 991px) {
 .header-style-1 .sx-topbar-left,
 .header-style-1 .sx-topbar-right {
@@ -8579,7 +8583,7 @@ padding:7px 0px;
 	color:inherit;
 }
 
-/*____ NAVIGATIONS 
+/*____ NAVIGATIONS
 ======================================*/
 
 
@@ -8726,18 +8730,18 @@ padding:7px 0px;
 	font-size: 14px;
 	padding: 14px 20px;
 	font-weight: 400;
-	border-left:0px solid transparent;	
+	border-left:0px solid transparent;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-ms-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;	
+	transition: all 0.2s linear;
 }
 
 .header-nav .nav>li .sub-menu li a:hover {
 	color: #000;
 	text-decoration: none;
-	padding-left:10px;	
+	padding-left:10px;
 }
 
 .header-nav .nav>li .sub-menu li a:hover:after {
@@ -8948,10 +8952,10 @@ padding:7px 0px;
 	.header-nav .nav li.has-child.nav-active>a {
 		color: #d7b39a;
 	}
-	
+
 	.header-nav .nav>li .sub-menu li a {
 		font-size: 12px;
-	}	
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -9159,10 +9163,10 @@ padding:7px 0px;
 .header-dark-1 .main-bar .navbar-toggler .icon-bar{
    background-color: #fff;
 }
-	
+
 .header-style-1.header-dark-1 .is-fixed.color-fill .main-bar {
 	background: #23252d !important;
-}	
+}
 
 .header-style-1 .top-bar{
 	border-bottom:1px solid #eee;
@@ -9264,8 +9268,8 @@ padding:7px 0px;
 	.nav-dark.header-nav .nav {
 		background-color: #23252d;
 	}
-	
-	
+
+
 	.nav-dark.header-nav .nav>li>a {
 		border-top: 1px solid rgba(0, 0, 0, 0.2);
 	}
@@ -9284,11 +9288,11 @@ padding:7px 0px;
 	.nav-dark.header-nav .nav>li .mega-menu {
 		background-color: #23252d;
 	}
-	
+
 	.nav-dark.header-nav .nav>li .sub-menu{
 		background-color: #000;
 	}
-	
+
 	.nav-dark .has-child .submenu-toogle{
 		color:#fff;
 	}
@@ -9304,8 +9308,8 @@ padding:7px 0px;
 }
 
 /*-------------------------------------
-	when header is sticky 
--------------------------------------*/  
+	when header is sticky
+-------------------------------------*/
 /* header sticky  */
 
 /*____WHEN HEADER IS STICKY____*/
@@ -9466,7 +9470,7 @@ padding:7px 0px;
 
 
 /*-------------------------------------
-	inner page banner 
+	inner page banner
 -------------------------------------*/
 
 .sx-bnr-inr {
@@ -9474,11 +9478,11 @@ padding:7px 0px;
 	background-position: center center;
 	display: table;
 	width: 100%;
-	
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-	background-size: cover; 
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -9514,7 +9518,7 @@ padding:7px 0px;
 .sx-bnr-inr-entry .banner-title-outer p{
 	color:#fff;
 	max-width:555px;
-	width:100%;	
+	width:100%;
 }
 
 
@@ -9542,7 +9546,7 @@ padding:7px 0px;
 
 
 /*-------------------------------------
-	owl slider 
+	owl slider
 -------------------------------------*/
 
 
@@ -9728,7 +9732,7 @@ padding:7px 0px;
 	-moz-transition: all 0.2s linear;
 	-ms-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;	
+	transition: all 0.2s linear;
 }
 
 .owl-prev {
@@ -9774,7 +9778,7 @@ padding:7px 0px;
 }
 
 
-/*____PAGINATION 
+/*____PAGINATION
 ======================================*/
 
 
@@ -9838,7 +9842,7 @@ padding:7px 0px;
 }
 
 
-/*____FOOTER 
+/*____FOOTER
 ======================================*/
 
 
@@ -10126,7 +10130,7 @@ padding:7px 0px;
 @media only screen and (max-width: 768px) {
 .footer-top {
     padding: 60px 0px 60px 0px;
-}	
+}
 }
 
 
@@ -10159,7 +10163,7 @@ padding:7px 0px;
 @media only screen and (max-width:1200px) {
 	.footer-col-3{
 		clear: both;
-	}	
+	}
 }
 @media only screen and (max-width:991px) {
 	footer .container {
@@ -10348,7 +10352,7 @@ button.scroltop span {
 	position: relative;
 }
 /*-------------------------------------
-	Section Head Part 
+	Section Head Part
 -------------------------------------*/
 
 .section-head {
@@ -10404,7 +10408,7 @@ button.scroltop span {
 
 
 /*-------------------------------------
-	Section Content Part 
+	Section Content Part
 -------------------------------------*/
 
 @media only screen and (max-width:1024px) {
@@ -10424,7 +10428,7 @@ button.scroltop span {
 		font-size: 22px;
 	}
 	h4{font-size:18px;}
-	
+
 }
 
 
@@ -10433,7 +10437,7 @@ button.scroltop span {
 
 
 /*-------------------------------------
-	Contact us page 
+	Contact us page
 -------------------------------------*/
 .contact-form{padding-right:100px;}
 .contact-info{margin-left:-100px;margin-top:150px;}
@@ -10574,7 +10578,7 @@ ul.contact-info li .fa {
 
 
 /*-------------------------------------
-	Product Box 
+	Product Box
 -------------------------------------*/
 
 .sx-product-box .price {
@@ -10660,7 +10664,7 @@ ul.contact-info li .fa {
 }
 
 
-/*____content show on image box () 
+/*____content show on image box ()
 ======================================*/
 
 @media only screen and (max-width:768px) {
@@ -10671,12 +10675,12 @@ ul.contact-info li .fa {
 }
 
 
-/*____Customize  Grouping css 
+/*____Customize  Grouping css
 ======================================*/
 
 
 /*-------------------------------------
-	set-radius 
+	set-radius
 -------------------------------------*/
 
 .btn,
@@ -10711,8 +10715,8 @@ ol.comment-list li.comment .comment-body {
 }
 
 
-/*------------------------------------- 
-	transition 
+/*-------------------------------------
+	transition
 -------------------------------------*/
 
 a,
@@ -10771,8 +10775,8 @@ a,
 }
 
 
-/*------------------------------------- 
-	float-clearfix 
+/*-------------------------------------
+	float-clearfix
 -------------------------------------*/
 
 .clearfix::after,
@@ -10786,16 +10790,16 @@ ol.commentlist li::after {
 }
 
 
-/*____Inner pages 
+/*____Inner pages
 ======================================*/
 
 
-/*------------------------------------- 
+/*-------------------------------------
 	Out Team
 -------------------------------------*/
 
 
-/*------------------------------------- 
+/*-------------------------------------
 	Product block
 -------------------------------------*/
 
@@ -11120,10 +11124,10 @@ display:block;
 .our-story-time .month{
 	display:inline-block;
 	font-size:14px;
-	font-weight:500;	
+	font-weight:500;
 }
 .our-story-time .date{
-	padding-right:3px;	
+	padding-right:3px;
 }
 
 .our-story-detail{
@@ -11151,7 +11155,7 @@ display:block;
 	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
-	transition: all 1s ease;	
+	transition: all 1s ease;
 
 }
 .owl-carousel-filter .owl-item.active{
@@ -11210,13 +11214,13 @@ display:block;
 
 @media only screen and (max-width:768px) {
 .filter-carousal-1{padding-bottom: 0px;padding-top: 20px;}
-	
+
 .filter-pos-right{
 	top: 0px;
 }
 }
 @media only screen and (max-width:540px) {
-	
+
 	.filter-pos-right {
 		position: inherit;
 		left: inherit;
@@ -11225,7 +11229,7 @@ display:block;
 		margin: 0px 0px;
 		padding:15px 15px 10px 15px;
 		text-align: left !important;
-	}	
+	}
 	.filter-pos-right .btn-filter-wrap li{
 		border: 1px solid #fff;
 		padding: 0px 8px;
@@ -11300,16 +11304,16 @@ display:block;
 .product-block ul li:last-child{
 	margin-bottom:0px;
 	border-bottom: 0px;
-	padding-bottom: 0px;	
+	padding-bottom: 0px;
 }
-	
+
 @media only screen and (max-width:991px){
-.project-detail-outer{padding:0px;}	
+.project-detail-outer{padding:0px;}
 .project-detail-outer2{margin-bottom:30px;}
 }
 @media only screen and (max-width:767px){
 .project-detail-containt{padding-bottom:30px;margin-top:10px;}
-.project-detail-containt-2{margin-top:30px;}	
+.project-detail-containt-2{margin-top:30px;}
 }
 
 /*____Modal
@@ -11739,7 +11743,7 @@ display:block;
   height:60px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  transform-origin: center center;    
+  transform-origin: center center;
 }
 
 .play-now .icon{
@@ -11756,12 +11760,12 @@ display:block;
     font-size: 20px;
     padding-left: 5px;
     display: block;
-	
+
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform-origin:center;
-  transform-origin: center center; 
- 
+  transform-origin: center center;
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -11787,20 +11791,20 @@ display:block;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform-origin:center;
-  transform-origin: center center; 
-  
+  transform-origin: center center;
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-	
+
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3);
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3);
     -ms-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3);
     -o-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, .3);
-	
+
     -webkit-animation: ripple 3s infinite;
     -moz-animation: ripple 3s infinite;
     -ms-animation: ripple 3s infinite;
@@ -12016,7 +12020,7 @@ display:block;
 -moz-transition: all 0.5s linear;
 -ms-transition: all 0.5s linear;
 -o-transition: all 0.5s linear;
-transition: all 0.5s linear;  
+transition: all 0.5s linear;
 }
 .our-team-1:hover{margin-top:-10px;box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);}
 
@@ -12076,7 +12080,7 @@ transition: all 0.5s linear;
 -moz-transition: all 0.5s linear;
 -ms-transition: all 0.5s linear;
 -o-transition: all 0.5s linear;
-transition: all 0.5s linear;  
+transition: all 0.5s linear;
 }
 .our-team-2:hover{margin-top:-10px;box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);}
 .our-team-2 .profile-image{
@@ -12195,7 +12199,7 @@ transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
-    transition: all 0.5s linear;	
+    transition: all 0.5s linear;
 }
 .icon-font-block:hover {
     -webkit-box-shadow: 0 10px 30px 0 rgba(50,50,50,.16);
@@ -12410,7 +12414,7 @@ transition: all 0.5s linear;
 	position: relative;
 	z-index: 1;
 	background-color: #f6f7f8;
-}	
+}
 .half-blocks-bg{
 	position:absolute;
 	left:0px;
@@ -12418,7 +12422,7 @@ transition: all 0.5s linear;
 	width:100%;
 	height:100%;
 	z-index:0;
-	
+
 }
 
 .half-blocks:hover .half-block-content{
@@ -12427,7 +12431,7 @@ transition: all 0.5s linear;
 }
 .half-blocks:hover .half-block-content .sx-tilte{color:#fff !important;}
 .half-blocks:hover .half-block-content .site-button-link{color:#fff !important;}
-		
+
 
 @media only screen and (max-width: 991px) {
 	.slider-half-part {
@@ -12505,12 +12509,12 @@ transition: all 0.5s linear;
 }
 
 
-/*____Progress Bar 
+/*____Progress Bar
 -------------------------------------*/
 .progress .progress-bar{
 	position:relative;
 	-webkit-transition: width 1.5s ease-in-out;
-	transition: width 1.5s ease-in-out;	
+	transition: width 1.5s ease-in-out;
 }
 .progress .tooltip{
 	left:100%;
@@ -12543,22 +12547,22 @@ transition: all 0.5s linear;
 	height: 100vh;
 }
 @media only screen and (max-width: 991px) {
-	
+
 .multi-line-animation{
 	display:none;
-}	
+}
 }
 .multi-line-one,
 .multi-line-two,
 .multi-line-three,
 .multi-line-four{
 	position:absolute;
-	bottom:0px;	
+	bottom:0px;
 	height:100vh;
 	width:4px;
-	z-index:20;	
-	border-left:1px solid rgba(255,255,255,0.1);	
-	
+	z-index:20;
+	border-left:1px solid rgba(255,255,255,0.1);
+
 }
 
 .multi-line-one{left:20%;}
@@ -12614,13 +12618,13 @@ transition: all 0.5s linear;
 
 .hilite-title{	border:0px;	}
 .hilite-title.hilite-dark strong{color:rgba(191,191,191,0.2);}
-.hilite-title strong{	
-display:inline-block;	
-font-size:80px;	
+.hilite-title strong{
+display:inline-block;
+font-size:50px;
 line-height:80px;
-color:rgba(0,0,0,0.1); 
+color:rgba(0,0,0,0.1);
 font-weight:700;
-letter-spacing: 20px;
+letter-spacing: 10px;
 transform: rotate(270deg);
 position: absolute;
 right:80px;
@@ -12674,7 +12678,7 @@ transform-origin: center right;
 
 
 /*-------------------------------------
-	2. Count Section 
+	2. Count Section
 -------------------------------------*/
 .icon-count-2-outer{
 	position: relative;
@@ -12685,7 +12689,7 @@ transform-origin: center right;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 	overflow:hidden;
-	padding:5px 0px;	
+	padding:5px 0px;
 }
 .icon-count-2-outer .icon-count-2{
 	padding:100px 30px 30px 30px;
@@ -12703,12 +12707,12 @@ transform-origin: center right;
 	opacity:0.4;
 	z-index:-1;
 	display:block;
-	
+
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;	
+	transition: all 0.5s linear;
 
 }
 
@@ -12721,12 +12725,12 @@ transform-origin: center right;
 	color: rgba(177, 177, 177, 0.2);
 	line-height: 120px;
 	font-family: 'Poppins', sans-serif;
-	
+
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;		
+	transition: all 0.5s linear;
 }
 .icon-count-2-outer .icon-count-2 span.icon-count-number:after{
 	content:"";
@@ -12737,12 +12741,12 @@ transform-origin: center right;
 	top:50%;
 	position:absolute;
 	margin-top:-2px;
-	
+
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;		
+	transition: all 0.5s linear;
 }
 
 .icon-count-2-outer:hover .icon-count-2 span.icon-count-number:after{
@@ -12751,7 +12755,7 @@ transform-origin: center right;
 
 .icon-count-2-outer:hover{
 	-webkit-box-shadow: 0 10px 30px 0 rgba(50,50,50,.16);
-	box-shadow: 0 10px 30px 0 rgba(50,50,50,.16);	
+	box-shadow: 0 10px 30px 0 rgba(50,50,50,.16);
 }
 
 .icon-count-2-outer:hover:after{
@@ -12839,7 +12843,7 @@ transform-origin: center right;
 .filter-navigation{
 	margin-bottom:0px;
 	display:inline-block;
-	-webkit-border-radius: 0px 5px 20px rgba(0,0,0,0.1);	
+	-webkit-border-radius: 0px 5px 20px rgba(0,0,0,0.1);
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
 .filter-navigation * {
@@ -12856,16 +12860,16 @@ transform-origin: center right;
 }
 .filter-navigation a.btn {
 	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);  
+	transform: perspective(1px) translateZ(0);
 }
 
 
-.filter-navigation li a.btn {		
-	position: relative;	
+.filter-navigation li a.btn {
+	position: relative;
 	padding: 15px 15px;
 	font-size: 14px;
 	color: #000;
-	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
+	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);
 	cursor: pointer;
 	user-select: none;
 	display:inline-block;
@@ -12876,7 +12880,7 @@ transform-origin: center right;
 .filter-navigation li a.btn:before,
 .filter-navigation li a.btn:after {
 	content: '';
-	position: absolute;	
+	position: absolute;
 	transition: inherit;
 	z-index: -1;
 }
@@ -12923,7 +12927,7 @@ transform-origin: center right;
 
 /* From Top */
 
-.from-top:before, 
+.from-top:before,
 .from-top:after {
 	left: 0;
 	height: 0;
@@ -12931,7 +12935,7 @@ transform-origin: center right;
 }
 
 .from-top:before {
-	bottom: 0;	
+	bottom: 0;
 	border: 1px solid #d7b39a;
 	border-top: 0;
 	border-bottom: 0;
@@ -13021,12 +13025,12 @@ background: #000;
   color:#fff;
    visibility:hidden;
    margin:-16px 0px 0px -16px;
- 
+
 }
 .image-hover-block:hover a i{
 	visibility:visible;
 	-webkit-transition-delay: 0.3s;
-	transition-delay: 0.3s;  	
+	transition-delay: 0.3s;
 }
 
 .image-hover-block:hover img{
@@ -13213,7 +13217,7 @@ background: #000;
 	}
 	.about-home-right {
 		padding-bottom: 50px;
-	}		
+	}
 }
 
 .home-2-about {
@@ -13236,7 +13240,7 @@ background: #000;
 	height: 100%;
 	background-color: transparent;
 	border: 20px solid #dfdfdf;
-	
+
 	z-index: -1;
 }
 
@@ -13253,18 +13257,18 @@ background: #000;
 	margin-bottom:30px;
 	left:auto;
 	right:auto;
-}	
+}
 
-.about-home-2{position:relative;z-index:1;padding:50px 50px 50px 0px;}	
+.about-home-2{position:relative;z-index:1;padding:50px 50px 50px 0px;}
 
 }
 
 @media only screen and (max-width:640px){
 .about-home-2:after {
     display:none;
-}	
+}
 
-.about-home-2{padding:0px;}	
+.about-home-2{padding:0px;}
 
 }
 /*---------------------------------------------
@@ -13322,7 +13326,7 @@ background: #000;
   left: 50%;
   right:auto;
   margin-left:-15px;
-}	
+}
 }
 
 
@@ -13361,7 +13365,7 @@ background: #000;
 	border: 20px solid #23252d;
 	z-index: 0;
 	bottom: -40px;
-	
+
 }
 .video-section-full{
 	padding: 60px 40px;
@@ -13392,37 +13396,37 @@ background: #000;
 	content:"";
 	position:absolute;
 	background-color:#fff;
-	
+
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-ms-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
-	overflow:hidden;	
+	overflow:hidden;
 }
 .video-section-full:after{
 	width:30px;
 	height:2px;
 	left:20px;
-	top:20px;		
+	top:20px;
 }
 .video-section-full:before{
 	width:2px;
 	height:30px;
 	left:20px;
-	top:20px;		
+	top:20px;
 }
 .video-section-inner:after{
 	width:30px;
 	height:2px;
 	right:20px;
-	bottom:20px;		
+	bottom:20px;
 }
 .video-section-inner:before{
 	width:2px;
 	height:30px;
 	right:20px;
-	bottom:20px;		
+	bottom:20px;
 }
 
 .video-section{
@@ -13452,10 +13456,10 @@ background: #000;
 	bottom: 0px;
 	margin-top: 0px;
 	margin-bottom:30px;
-}	
+}
 }
 @media only screen and (max-width:767px){
-	
+
 .video-section-full-v2{
 	margin-bottom: 40px;
 
@@ -13468,15 +13472,15 @@ background: #000;
 	}
 .video-section-full-v2 .video-section-full{
 	margin-left:0px;
-}	
-	
+}
+
 }
 
 @media only screen and (max-width: 420px) {
 .video-section-full-v2 .video-section-full{
 	padding:150px 40px;
 }
-	
+
 }
 
 /*------------------------
@@ -13502,7 +13506,7 @@ background: #000;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;	
+	transition: all 0.5s linear;
 }
 .number-block-one .figcaption:after{
 	content:"";
@@ -13516,7 +13520,7 @@ background: #000;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;		
+	transition: all 0.5s linear;
 }
 .number-block-one .figcaption-number{
 	overflow:hidden;
@@ -13537,7 +13541,7 @@ background: #000;
 
 .number-block-one:hover .figcaption:after{
 	height:48px;
-	bottom:-48px;		
+	bottom:-48px;
 }
 
 @media only screen and (max-width:991px){
@@ -13622,7 +13626,7 @@ background: #000;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;	
+	transition: all 0.5s linear;
 }
 
 .number-block-two .figcaption:after{
@@ -13638,8 +13642,8 @@ background: #000;
 	transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	-webkit-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;	
-	
+	-o-transition: all 0.4s ease;
+
 }
 .number-block-two:hover .figcaption:after{
 	width: 100%;
@@ -13662,8 +13666,8 @@ background: #000;
 	transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	-webkit-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;	
-	
+	-o-transition: all 0.4s ease;
+
 }
 .number-block-two:hover .figcaption:before{
 	width: 100%;
@@ -13681,27 +13685,27 @@ background: #000;
 	right: 20px;
 	bottom: 20px;
 	opacity:0.1;
-	
+
 -webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-ms-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
-	
+
 	-webkit-text-fill-color: rgba(0,0,0,0);
 	-ms-text-fill-color: rgba(0,0,0,0);
 	-moz-text-fill-color: rgba(0,0,0,0);
 	-o-text-fill-color: rgba(0,0,0,0);
-	
+
 	-webkit-text-stroke-width: 1px;
 	-ms-text-stroke-width: 1px;
 	-moz-text-stroke-width: 1px;
 	-o-text-stroke-width: 1px;
-	
+
 	-webkit-text-stroke-color: #000;
 	-ms-text-stroke-color: #000;
 	-moz-text-stroke-color: #000;
-	-o-text-stroke-color: #000;	
+	-o-text-stroke-color: #000;
 }
 .number-block-two .figcaption-number span{
 	font-size: 40px;
@@ -13725,7 +13729,7 @@ background: #000;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;	
+	transition: all 0.5s linear;
 }
 .number-block-three .figcaption:after{
 	content:"";
@@ -13739,7 +13743,7 @@ background: #000;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;		
+	transition: all 0.5s linear;
 }
 .number-block-three .figcaption-number{
 	overflow: hidden;
@@ -13747,27 +13751,27 @@ background: #000;
 	right: 20px;
 	top: -73px;
 	opacity:0.5;
-	
+
 -webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-ms-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
-	
+
 	-webkit-text-fill-color: rgba(0,0,0,0.5);
 	-ms-text-fill-color: rgba(0,0,0,0.5);
 	-moz-text-fill-color: rgba(0,0,0,0.5);
 	-o-text-fill-color: rgba(0,0,0,0.5);
-	
+
 	-webkit-text-stroke-width: 1px;
 	-ms-text-stroke-width: 1px;
 	-moz-text-stroke-width: 1px;
 	-o-text-stroke-width: 1px;
-	
+
 	-webkit-text-stroke-color: #fff;
 	-ms-text-stroke-color: #fff;
 	-moz-text-stroke-color: #fff;
-	-o-text-stroke-color: #fff;	
+	-o-text-stroke-color: #fff;
 }
 .number-block-three .figcaption-number span{
 	font-size: 60px;
@@ -13783,7 +13787,7 @@ background: #000;
 
 .number-block-three:hover .figcaption:after{
 	width:100%;
-	right:0%;		
+	right:0%;
 }
 
 
@@ -13850,7 +13854,7 @@ INPUT ANIMATION
 .login-animate.input .spin {  transition: 300ms cubic-bezier(.4, 0, .2, 1); -webkit-transition: 300ms cubic-bezier(.4, 0, .2, 1); -ms-transition: 300ms cubic-bezier(.4, 0, .2, 1);}
 
 .input-animate.input input,
-.input-animate.input textarea,  
+.input-animate.input textarea,
 .input-animate.input label { font-size: 12px;  color: rgba(0, 0, 0, 0.8); font-weight: 500; }
 
 .input-animate.input  { margin-bottom: 30px;  height: 44px; }
@@ -13860,14 +13864,14 @@ INPUT ANIMATION
 .input-animate.input textarea{ height: 40px; padding-top:15px; top: 10px; border: none; background: transparent; }
 
 .input-animate.input label { position: absolute; top: 10px; left: 0; z-index: 2; cursor: pointer; line-height: 40px; }
-.input-animate.input input, 
-.input-animate.input textarea, 
+.input-animate.input input,
+.input-animate.input textarea,
 .input-animate.input label { font-size: 14px; color:#000; font-weight: 500; }
 
-.input-animate.input::before, 
+.input-animate.input::before,
 .input-animate.input .spin { width: 100%; height: 1px; position: absolute; bottom: 0; left: 0; }
 
-.input-animate.input, 
+.input-animate.input,
 .input-animate.input input,
 .input-animate.input textarea{ position: relative; width:100%;outline: none;}
 
@@ -13875,10 +13879,10 @@ INPUT ANIMATION
 
 .input-animate.input .spin { background: #d7b39a; z-index: 4; width: 0; }
 
-.input-animate.input, 
-.input-animate.input label, 
+.input-animate.input,
+.input-animate.input label,
 .input-animate.input input,
-.input-animate.input textarea,  
+.input-animate.input textarea,
 .input-animate.input .spin { transition: 300ms cubic-bezier(.4, 0, .2, 1); -webkit-transition: 300ms cubic-bezier(.4, 0, .2, 1); -ms-transition: 300ms cubic-bezier(.4, 0, .2, 1); box-shadow: none;}
 
 /*-------------------------
@@ -14178,11 +14182,11 @@ color:#fff;
 }
 #rev_slider_26_1 .tp-leftarrow{
 	-webkit-transform: matrix(1, 0, 0, 1, -100, -50) !important;
-	transform: matrix(1, 0, 0, 1, -100, -50) !important;	
+	transform: matrix(1, 0, 0, 1, -100, -50) !important;
 }
 #rev_slider_26_1 .tp-leftarrow{
 	-webkit-transform: matrix(1, 0, 0, 1, -100, -50) !important;
-	transform: matrix(1, 0, 0, 1, -100, -50) !important;	
+	transform: matrix(1, 0, 0, 1, -100, -50) !important;
 }
 
 #rev_slider_26_1 .tparrows::before	{
@@ -14262,13 +14266,13 @@ color:#fff;
 @media only screen and (max-width:991px){
 .get-in-touch-form-section{
 	max-width:400px;
-}	
+}
 }
 
 
 @media only screen and (max-width:768px){
 .mobile-page-padding{padding:30px 0px;}
-.mobile-page-padding.p-b10{padding-bottom:0px;}	
+.mobile-page-padding.p-b10{padding-bottom:0px;}
 .inner-page-padding{padding:30px 0px;}
 .mobile-page-padding .row.team-item-four [class*="col-"]:nth-of-type(3) {margin-bottom:0px !important;}
 .mobile-page-padding .row [class*="col-"]:last-child.m-b30{margin-bottom:0px;}
@@ -14309,7 +14313,7 @@ color:#fff;
 
 .faq-list div:last-child p{margin-bottom:0px;}
 @media only screen and (max-width:767px){
-.faq-list{margin-bottom:30px;}	
+.faq-list{margin-bottom:30px;}
 }
 
 /*-----------------------------------------------
@@ -14397,7 +14401,7 @@ color:#fff;
 .slide-left-social{
 	display:none;
 }
-	
+
 }
 
 /*-------------------------
@@ -14453,9 +14457,9 @@ color:#fff;
 	z-index: 9;
 }
 @media only screen and (max-width:1136px){
-.right-half-bg-image{	
+.right-half-bg-image{
 	display:none;
-}	
+}
 }
 /*---------------------------------------------
 	counter-blocks
@@ -14488,7 +14492,7 @@ color:#fff;
 }
 
 @media only screen and (max-width:767px){
-.counter-blocks-2 [class*="col-"]:last-child .sx-count{margin-bottom:0px;}	
+.counter-blocks-2 [class*="col-"]:last-child .sx-count{margin-bottom:0px;}
 }
 
 
@@ -14670,12 +14674,12 @@ Image effect one
 	bottom:30px;
 	width:auto;
 	height:auto;
-	
+
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-	
+
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -14725,7 +14729,7 @@ Image effect one
 	left: 0;
 	width: 100%;
 	height: 100%;
-		
+
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	z-index:1;
@@ -14874,7 +14878,7 @@ Image effect one
 	font-weight:500;
 }
 .our-team-info .sx-team-position {
-font-weight:500;	
+font-weight:500;
 }
 }
 
@@ -14900,7 +14904,7 @@ large-title-block
 /*---------------------------------------------
 	Team Single
 ----------------------------------------------*/
-.team-single-social ul li{margin-bottom:10px;display:flex;align-items: center;} 
+.team-single-social ul li{margin-bottom:10px;display:flex;align-items: center;}
 .team-single-social ul li span:first-child{
 	padding-right:30px;
 }
@@ -14944,10 +14948,10 @@ display:block;
 .about-single-team-info .our-story-time .month{
 	display:inline-block;
 	font-size:14px;
-	font-weight:500;	
+	font-weight:500;
 }
 .about-single-team-info .our-story-time .date{
-	padding-right:3px;	
+	padding-right:3px;
 }
 
 .about-single-team-info .our-story-detail{
@@ -14964,7 +14968,7 @@ display:block;
 	margin-right:20%;
 	margin-bottom:120px;
 	position:relative;
-	z-index:1	
+	z-index:1
 }
 
 .our-history .pic-bg-border{
@@ -15020,7 +15024,7 @@ background-position: 0px !important;
 }
 
 @media only screen and (max-width:768px){
-	
+
 .our-history .row:last-child .our-history-content.m-b30,
 .our-history .row:last-child .our-history-content p{
 	margin-bottom:0px;
@@ -15050,14 +15054,14 @@ background-position: 0px !important;
 /*--------------------------------
 	GET IN TOUCH BTN
 ---------------------------------*/
-.get-in-touch-btn {		
-	position: relative;	
+.get-in-touch-btn {
+	position: relative;
 	padding: 15px 15px;
 	font-size: 14px;
 	color: #000;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
+	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);
 	cursor: pointer;
 	user-select: none;
 	display:inline-block;
@@ -15067,7 +15071,7 @@ background-position: 0px !important;
 .get-in-touch-btn:before,
 .get-in-touch-btn:after {
 	content: '';
-	position: absolute;	
+	position: absolute;
 	transition: inherit;
 	z-index: -1;
 }
@@ -15089,7 +15093,7 @@ background-position: 0px !important;
 
 /* From Top */
 
-.get-in-touch-btn.from-top:before, 
+.get-in-touch-btn.from-top:before,
 .get-in-touch-btn.from-top:after {
 	left: 0;
 	height: 0;
@@ -15097,7 +15101,7 @@ background-position: 0px !important;
 }
 
 .get-in-touch-btn.from-top:before {
-	bottom: 0;	
+	bottom: 0;
 	border: 1px solid #23252d;
 	border-top: 0;
 	border-bottom: 0;
@@ -15119,7 +15123,7 @@ background-position: 0px !important;
 }
 
 @media only screen and (max-width:480px){
-.get-in-touch-btn {		
+.get-in-touch-btn {
 	padding: 5px 12px;
 	font-size: 10px;
 }
