@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -20,5 +21,6 @@ export class NavbarComponent implements OnInit {
       console.log();
       this.translate.use(lang);
     }
+
 
 }
