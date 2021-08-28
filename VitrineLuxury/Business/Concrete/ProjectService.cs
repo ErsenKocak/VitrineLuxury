@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using VitrineLuxury.Core.Aspects.AutoFac.Caching.CacheAspect;
 using VitrineLuxury.Core.DataAccess;
 using VitrineLuxury.Core.UnitOfWorks;
 using VitrineLuxury.DataAccess.Concrete;
@@ -22,9 +23,10 @@ namespace VitrineLuxury.Service.Concrete
             _projectRepository = repository;
             _unitOfWork = unitOfWork;
         }
-
+        [CacheAspect]
         public async Task<IEnumerable<Project>> GetProjectsWithImageUrlsAsync()
         {
+            Console.WriteLine("asdasd1");
             return await _projectRepository.GetProjectsWithImageUrlByIdAsync();
         }
 

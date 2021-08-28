@@ -23,7 +23,7 @@ namespace VitrineLuxury.DataAccess.Concrete
         }
 
 
-
+        
         public async Task AddAsync(TEntity entity)
         {
             await _dbSet.AddAsync(entity);

@@ -30,6 +30,7 @@ namespace VitrineLuxuryWebAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<ProjectDto>>(projects));
         }
 
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

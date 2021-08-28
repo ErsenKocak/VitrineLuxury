@@ -23,6 +23,9 @@ using VitrineLuxury.Service.Abstract;
 using VitrineLuxury.Service.Concrete;
 using AutoMapper;
 using Newtonsoft;
+using VitrineLuxury.Core.Utilities.IoC;
+using VitrineLuxury.Core.DependencyResolvers;
+using VitrineLuxury.Core.Extension;
 
 namespace VitrineLuxuryBackend
 {
@@ -38,13 +41,7 @@ namespace VitrineLuxuryBackend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddAutoMapper(typeof(Startup));
-            services.AddScoped<IProjectService, ProjectService>();
-            services.AddScoped<IProjectRepository, ProjectRepository>();
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IService<>), typeof(Service<>));
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
             services.AddDbContext<AppDbContext>(options =>
@@ -63,6 +60,10 @@ namespace VitrineLuxuryBackend
             services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );
+
+            services.AddDependencyResolvers(new ICoreModule[] {
+               new CoreModule()
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
