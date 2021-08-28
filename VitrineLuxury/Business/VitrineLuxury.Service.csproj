@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\VitrineLuxury.Entities.csproj" />
+    <ProjectReference Include="..\Repository\VitrineLuxury.DataAccess.csproj" />
+    <ProjectReference Include="..\VitrineLuxury.Core\VitrineLuxury.Core.csproj" />
+  </ItemGroup>
+
+</Project>

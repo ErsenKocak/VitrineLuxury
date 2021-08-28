@@ -1,0 +1,15 @@
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\VitrineLuxury.Core.deps.json
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\VitrineLuxury.Core.dll
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\ref\VitrineLuxury.Core.dll
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\VitrineLuxury.Core.pdb
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\VitrineLuxury.Entities.dll
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\bin\Debug\net5.0\VitrineLuxury.Entities.pdb
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.csproj.AssemblyReference.cache
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.AssemblyInfoInputs.cache
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.AssemblyInfo.cs
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.csproj.CopyComplete
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.dll
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\ref\VitrineLuxury.Core.dll
+D:\Projects\Vitrinel\VitrineLuxury\VitrineLuxury\VitrineLuxury.Core\obj\Debug\net5.0\VitrineLuxury.Core.pdb
