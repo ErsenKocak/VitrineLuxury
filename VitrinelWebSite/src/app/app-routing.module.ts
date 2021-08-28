@@ -1,3 +1,4 @@
+import { ProjectComponent } from './pages/project/project.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -14,6 +15,9 @@ const routes: Routes = [
   },
   {
     path:'iletisim', component: ContactComponent
+  },
+  {
+    path:'projelerimiz', component: ProjectComponent
   }
 ];
 

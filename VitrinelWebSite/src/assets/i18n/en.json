@@ -118,6 +118,9 @@
       "EMAIL": "Email Adress",
       "ADRESS":"Adress info"
     }
+  },
+  "PROJECTS":{
+    "TITLE": "Projects"
   }
 
 }

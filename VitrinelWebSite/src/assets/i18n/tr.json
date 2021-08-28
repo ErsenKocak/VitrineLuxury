@@ -117,5 +117,8 @@
       "EMAIL": "Email",
       "ADRESS":"Adres Bilgisi"
     }
+  },
+  "PROJECTS":{
+    "TITLE": "Projelerimiz"
   }
 }
