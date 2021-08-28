@@ -1,1 +1,174 @@
-<p>contact works!</p>
+
+<div class="page-wraper">
+
+  <!-- HEADER START -->
+  <app-navbar-dark></app-navbar-dark>
+  <!-- HEADER END -->
+
+  <!-- CONTENT START -->
+  <div class="page-content">
+
+      <!-- INNER PAGE BANNER -->
+      <div class="sx-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url(images/banner/9.jpg);">
+        <div class="overlay-main bg-black opacity-07"></div>
+          <div class="container">
+              <div class="sx-bnr-inr-entry">
+                <div class="banner-title-outer">
+                    <div class="banner-title-name">
+                      <h2 class="m-tb0"> {{'CONTACT.TITLE' | translate  }}  </h2>
+                          <p>{{'CONTACT.DESCRIPTION' | translate  }}</p>
+                      </div>
+                  </div>
+                  <!-- BREADCRUMB ROW -->
+
+                      <div>
+                          <ul class="sx-breadcrumb breadcrumb-style-2">
+                              <li><a href="javascript:void(0);"> {{'HOME.NAVIGATION.HOME' | translate}} </a></li>
+                              <li> {{'HOME.NAVIGATION.CONTACT' | translate  }} </li>
+                          </ul>
+                      </div>
+
+                  <!-- BREADCRUMB ROW END -->
+              </div>
+          </div>
+      </div>
+      <!-- INNER PAGE BANNER END -->
+
+      <!-- SECTION CONTENTG START -->
+      <div class="section-full p-tb80 inner-page-padding">
+          <!-- LOCATION BLOCK-->
+          <div class="container">
+
+              <!-- GOOGLE MAP & CONTACT FORM -->
+              <div class="section-content">
+                  <!-- CONTACT FORM-->
+                  <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <form class="contact-form cons-contact-form bg-gray p-a30" method="post" action="form-handler.php">
+                              <div class="contact-one">
+
+                                  <!-- TITLE START -->
+                                  <div class="section-head">
+                                      <div class="sx-separator-outer separator-left">
+                                          <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                              <h3 class="sep-line-one">Form</h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- TITLE END -->
+
+                                  <div class="form-group">
+                                      <input name="username" type="text" required class="form-control" placeholder=" {{'CONTACT.FORM.NAME' | translate}} ">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <input name="email" type="text" class="form-control" required placeholder="{{'CONTACT.FORM.EMAIL' | translate}}">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <textarea name="message" rows="4" class="form-control " required placeholder="{{'CONTACT.FORM.MESSAGE' | translate}}"></textarea>
+                                  </div>
+
+                                <div class="text-right">
+                                      <button name="submit" type="submit" value="Submit" class="site-button btn-half"><span> {{'CONTACT.FORM.SUBMIT' | translate}}</span>
+
+                                      </button>
+                                  </div>
+
+                              </div>
+                          </form>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="contact-info block-shadow bg-white bg-center p-a40" style="background-image:url(images/background/bg-map.png)">
+
+                              <div>
+                                  <!-- TITLE START -->
+                                  <div class="section-head">
+                                      <div class="sx-separator-outer separator-left">
+                                          <div class="sx-separator bg-white bg-moving bg-repeat-x" style="background-image:url(images/background/cross-line2.png)">
+                                              <h3 class="sep-line-one">{{'CONTACT.INFO.TITLE' | translate}}</h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- TITLE END -->
+                                  <div class="sx-icon-box-wraper left p-b30">
+                                      <div class="icon-xs"><i class="fa fa-phone"></i></div>
+                                      <div class="icon-content">
+                                          <h5 class="m-t0">{{'CONTACT.INFO.PHONE' | translate}}</h5>
+                                          <div>(+90) 532 176 82 82</div>
+                                          <div class="widget_services">
+                                            <ul>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                            </ul>
+                                          </div>
+                                          <div>(+974) 50071791</div>
+                                      </div>
+                                  </div>
+
+                                  <div class="sx-icon-box-wraper left p-b30">
+                                      <div class="icon-xs"><i class="fa fa-envelope"></i></div>
+                                      <div class="icon-content">
+                                          <h5 class="m-t0">{{'CONTACT.INFO.EMAIL' | translate}}</h5>
+                                          <div>test@gmail.com</div>
+                                          <div class="widget_services">
+                                            <ul>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                            </ul>
+                                          </div>
+                                          <div>test@gmail.com</div>
+                                      </div>
+                                  </div>
+
+                                  <div class="sx-icon-box-wraper left">
+                                      <div class="icon-xs"><i class="fa fa-map-marker"></i></div>
+                                      <div class="icon-content">
+                                          <h5 class="m-t0">{{'CONTACT.INFO.ADRESS' | translate}}</h5>
+                                          <div>Barbaros Mah. Çiğdem Sok. B3 Blok No:4 E iç Kapı No:25 Ataşehir İSTANBUL</div>
+                                          <div class="widget_services">
+                                            <ul>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                              <li style="margin: 0px;padding: 5px;"> </li>
+                                            </ul>
+                                          </div>
+                                          <div>130 Blgd. St. 340, 1. Floor, Office #7 Salwa Road, near Midmac R/A P.O BO:23047, Doha QATAR</div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+     </div>
+      <div class="gmap-outline">
+        <div id="gmap_canvas2" class="google-map">
+          <div style="width: 100%;position: relative; justify-content: space-between;display: flex;">
+            <iframe width="45%" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Ata%C5%9Fehir%20%C4%B0STANBUL%20Barbaros%20Mah.%20%C3%87i%C4%9Fdem%20Sok.+(Title)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+            <iframe width="45%" height="440"  src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Salwa%20Road%2C%20Qatar+(Title)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
+      </div>
+      <!-- SECTION CONTENT END -->
+
+  </div>
+  <!-- CONTENT END -->
+
+  <!-- FOOTER START -->
+
+  <!-- FOOTER END -->
+
+  <!-- BUTTON TOP START -->
+<button class="scroltop"><span class="fa fa-angle-up  relative" id="btn-vibrate"></span></button>
+
+</div>
+
+<app-footer style="position: relative;"></app-footer>
+<!-- LOADING AREA START ===== -->
+<app-loading></app-loading>
+
+

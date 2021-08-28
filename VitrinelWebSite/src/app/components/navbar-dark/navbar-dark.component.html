@@ -1,0 +1,80 @@
+<header class="site-header nav-wide nav-transparent">
+  <div class="sticky-header main-bar-wraper navbar-expand-lg">
+      <div class="main-bar">
+          <div class="container clearfix">
+              <div class="logo-header">
+                  <div class="logo-header-inner logo-header-one">
+                    <a href="index.html">
+                      <img src="../../../assets/images/logo-1.jpg" alt="VitrineLuxury" style="height: 75px;"/>
+                  </a>
+                  </div>
+              </div>
+              <!-- NAV Toggle Button -->
+
+
+                 <!-- EXTRA NAV -->
+              <div class="extra-nav">
+                <div class="extra-cell">
+                    <a style="cursor: pointer;" (click)="changelanguage('tr')">
+                      <svg-icon src="../../../assets/images/svg/turkey.svg" [svgStyle]="{ 'width.px':30,'padding-right.px':5 }"></svg-icon>
+
+                      <!-- <i class="flaticon-turkey"></i> -->
+                    </a>
+                     <a  style="cursor: pointer;" (click)="changelanguage('en')">
+                      <svg-icon src="../../../assets/images/svg/united.svg" [svgStyle]="{ 'width.px':30 ,'padding-right.px':5}"></svg-icon>
+
+                     </a>
+                  </div>
+                <!-- <div class="extra-cell">
+                    <div class="contact-slide-show"><a href="javascript:;" class="get-in-touch-btn from-top">Get in touch</a></div>
+                </div> -->
+            </div>
+            <!-- EXTRA Nav -->
+
+                  <!-- MAIN NAVIGATION -->
+                  <div class="header-nav nav-dark navbar-collapse collapse justify-content-start collapse">
+                    <ul class=" nav navbar-nav">
+                        <li class="active">
+                            <a href="/">{{ 'HOME.NAVIGATION.HOME' | translate}}</a>
+
+                        </li>
+
+                        <li>
+                            <!-- <a (click)="navigate('hakkimizda')">{{ 'HOME.NAVIGATION.ABOUT' | translate}}</a> -->
+                            <a href="hakkimizda">{{ 'HOME.NAVIGATION.ABOUT' | translate}}</a>
+
+                        </li>
+
+
+
+                        <li>
+                            <a href="javascript:;">{{ 'HOME.NAVIGATION.PROJECTS' | translate}}</a>
+
+                        </li>
+
+
+
+                        <!-- <li><a href="faq.html">FAQ</a></li> -->
+                        <li><a href="/iletisim">{{ 'HOME.NAVIGATION.CONTACT' | translate}}</a></li>
+
+                    </ul>
+                </div>
+
+
+                  <!-- SITE SEARCH -->
+                  <div id="search">
+                      <span class="close"></span>
+                      <form role="search" id="searchform" action="/search" method="get" class="radius-xl">
+                          <div class="input-group">
+                              <input value="" name="q" type="search" placeholder="Type to search"/>
+                              <span class="input-group-btn"><button type="button" class="search-btn"><i class="fa fa-search arrow-animation"></i></button></span>
+                          </div>
+                      </form>
+                  </div>
+
+
+
+          </div>
+      </div>
+  </div>
+</header>

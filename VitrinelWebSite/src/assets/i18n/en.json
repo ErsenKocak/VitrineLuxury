@@ -89,6 +89,35 @@
       }
 
     }
+  },
+  "ABOUT":{
+    "TITLE": "About Company",
+    "CARD_TITLE": "Who are we ?",
+    "DESCRIPTION" : "With over 24 years experience we have been working with commercial and\n residential customers. From luxury cruise liners, restaurants to stores and\n especially hotels, we’re a reliable supplier offering a full furniture package,\n providing clients with a smooth, stress-free process from order to handover.\nCreativity, innovation, diligence and passion are always the ingredients of\nour work and of our success. We offer fast lead times and react efficiently to\ncustomer’s demands.\nWith our extensive distribution network we have been exporting our\nfurnitures to Qatar, Canada, Germany, Hungary, Greece, Azerbaijan,\nBulgaria and Romania.\nHaving excellent pre-sale and after-sale customer service in each and every\naspect of the business is one of our permanent objectives at VitrineLuxury.",
+    "VIDEO_TITLE" : "24 Years\n Experience",
+    "INFOGRAPHIC":{
+      "TITLE": "Infographic",
+      "YEARS": "Years of Experince",
+      "PROJECT" : " Project Taken",
+      "WON": "Awards Won",
+      "FOLLOWERS" : "Followers"
+    }
+  },
+  "CONTACT":{
+    "TITLE": "Contact Us Form",
+    "DESCRIPTION": "The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized.",
+    "FORM":{
+      "NAME": "Name",
+      "EMAIL" :"Email",
+      "MESSAGE":"Message",
+      "SUBMIT":"SUBMIT"
+    },
+    "INFO":{
+      "TITLE":"INFO",
+      "PHONE":"Phone Number",
+      "EMAIL": "Email Adress",
+      "ADRESS":"Adress info"
+    }
   }
 
 }

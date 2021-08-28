@@ -16,6 +16,7 @@ import { LoadingComponent } from './components/loading/loading.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { FooterComponent } from './components/footer/footer.component';
 import { WhatWeDoComponent } from './components/what-we-do/what-we-do.component';
+import { NavbarDarkComponent } from './components/navbar-dark/navbar-dark.component';
 
 export function HttpLoaderFactory (http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -32,6 +33,7 @@ export function HttpLoaderFactory (http: HttpClient){
     LoadingComponent,
     FooterComponent,
     WhatWeDoComponent,
+    NavbarDarkComponent,
 
   ],
   imports: [

@@ -88,5 +88,34 @@
         "DESCRIPTION": "İç ve Dış Tasarım hizmetlerini birleştiriyoruz ve genellikle tek bir çözüm olarak sunuyoruz."
       }
     }
+  },
+  "ABOUT":{
+    "TITLE": "Hakkımızda",
+    "CARD_TITLE": "Biz Kimiz ?",
+    "DESCRIPTION" : "24 yılı aşkın tecrübemizle ticari ve\nkonut müşterileri. Lüks yolcu gemilerinden, restoranlardan mağazalara ve\nözellikle oteller, eksiksiz bir mobilya paketi sunan güvenilir bir tedarikçiyiz,\nmüşterilere siparişten teslime kadar sorunsuz, stressiz bir süreç sağlamak.\nYaratıcılık, yenilikçilik, çalışkanlık ve tutku her zaman\nişimiz ve başarımız. Hızlı teslim süreleri sunuyoruz ve verimli bir şekilde tepki veriyoruz\nmüşterinin talepleri.\nGeniş dağıtım ağımız ile ihracatını gerçekleştirmekteyiz.\nmobilya katar, Kanada, Almanya, Macaristan, Yunanistan, Azerbaycan,\nBulgaristan ve Romanya.\nHer birinde mükemmel satış öncesi ve satış sonrası müşteri hizmetlerine sahip olmak\nişin yönü, VitrineLuxury'deki kalıcı hedeflerimizden biridir.\n",
+    "VIDEO_TITLE" : "24 Yıllık\n Deneyim",
+    "INFOGRAPHIC":{
+      "TITLE": "Bilgi Grafiği",
+      "YEARS": "Yılın Tecrübesi",
+      "PROJECT" : "Proje Alındı",
+      "WON": "Kazanılan Ödüller",
+      "FOLLOWERS" : "Takipçi"
+    }
+  },
+  "CONTACT":{
+    "TITLE": "Bize Ulaşın Formu",
+    "DESCRIPTION": "İç tasarımın özü her zaman insanlarla ve onların nasıl yaşadıklarıyla ilgili olacaktır. Bir insanı çekici, medeni yapan şeyin gerçekleriyle ilgilidir.",
+    "FORM":{
+      "NAME": "İsim",
+      "EMAIL" :"Email",
+      "MESSAGE":"Mesaj",
+      "SUBMIT":"GÖNDER"
+    },
+    "INFO":{
+      "TITLE":"Bilgi",
+      "PHONE":"Telefon Numarası",
+      "EMAIL": "Email",
+      "ADRESS":"Adres Bilgisi"
+    }
   }
 }

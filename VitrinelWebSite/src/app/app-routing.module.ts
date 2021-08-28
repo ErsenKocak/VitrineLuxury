@@ -1,3 +1,4 @@
+import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgModule, Component } from '@angular/core';
@@ -10,6 +11,9 @@ const routes: Routes = [
   },
   {
     path:'hakkimizda', component: AboutComponent
+  },
+  {
+    path:'iletisim', component: ContactComponent
   }
 ];
 

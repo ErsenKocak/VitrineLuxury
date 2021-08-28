@@ -8479,7 +8479,7 @@ padding:7px 0px;
 .header-style-1 .header-left-gray-block .logo-header:after{
 	content: '';
 	right: 0px;
-	top: -11px;
+	/* top: -11px; */
 	position: absolute;
 	width: 3000px;
 	background-color: #eef1f2;
@@ -8488,8 +8488,8 @@ padding:7px 0px;
 }
 
 .header-style-1 .is-fixed.color-fill .header-left-gray-block .logo-header:after{
-	top: -14px;
-	bottom: -14px;
+	/* top: -14px;
+	bottom: -14px; */
 }
 
 .header-style-1.nav-wide .header-nav .nav{
